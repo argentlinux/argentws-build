@@ -1,0 +1,71 @@
+## COMPILER STUFF ##
+CFLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
+CHOST="x86_64-pc-linux-gnu"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
+MAKEOPTS="-j8 -s"
+
+## PORTAGE FEATURES ##
+FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg --rebuilt-binaries"
+
+## SYSTEM LANGUAGES ##
+LINGUAS="en en_US en_GB uk ro_RO ro"
+L10N="en en-US en-GB uk ro-RO ro"
+
+## USE FLAGS ##
+SYSTEM_USE="X glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
+CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
+MEDIA_USE="cairo drm dri dri3 vaapi vdpau opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
+IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
+TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt3support qt5"
+NETWORK_USE="ipv6"
+SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal"
+DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook"
+
+USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
+
+## DEVICES ##
+INPUT_DEVICES="evdev synaptics"
+VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa amdgpu radeonsi radeon"
+LIRC_DEVICES="audio audio_alsa serial pctv"
+
+## OFFICE ##
+LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport"
+
+## QEMU ##
+QEMU_USER_TARGETS="x86_64 i386"
+QEMU_SOFTMMU_TARGETS="x86_64 i386"
+
+## MIRRORS ##
+GENTOO_MIRRORS="http://mirror.bytemark.co.uk/gentoo/"
+
+## PYTHON TARGETS ##
+USE_PYTHON="2.7 3.4"
+PYTHON_TARGETS="python2_7 python3_4"
+
+## RUBY TARGETS ##
+RUBY_TARGETS="ruby20 ruby21"
+
+## GRUB PLATFORMS ##
+GRUB_PLATFORMS="efi-64 pc"
+
+## DRACUT MODULES ##
+DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
+
+## ABI SUPPORT ##
+ABI_X86="64 32"
+
+# Set PORTDIR for backward compatibility with various tools:
+#   gentoo-bashcomp - bug #478444
+#   euse - bug #474574
+#   euses and ufed - bug #478318
+PORTDIR="/usr/portage"
+DISTDIR="${PORTDIR}/distfiles"
+
+INSTALL_MASK="/etc/init.d
+	      /etc/conf.d
+	      /etc/runlevels"
+
+source /var/lib/layman/make.conf
+source /etc/portage/binhost.conf

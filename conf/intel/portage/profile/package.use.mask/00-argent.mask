@@ -1,0 +1,5 @@
+# http://bugs.rogentos.ro/show_bug.cgi?id=4115
+media-sound/audacity -ffmpeg
+
+# We use a builtin module for sys-fs/zfs
+sys-fs/zfs -kernel-builtin

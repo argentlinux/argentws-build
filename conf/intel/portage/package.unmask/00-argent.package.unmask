@@ -1,0 +1,7 @@
+# unmask perl-Module-Build
+virtual/perl-Module-Build::gentoo
+app-admin/calamares::argent-work
+net-wireless/broadcom-sta::gentoo
+sys-firmware/b43-firmware::gentoo
+sys-firmware/b43legacy-firmware::gentoo
+www-plugins/google-talkplugin::gentoo

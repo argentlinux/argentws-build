@@ -1,0 +1,6 @@
+media-libs/alsa-lib
+media-plugins/alsa-plugins
+media-plugins/gst-plugins-meta:1.0
+media-sound/alsa-utils
+media-sound/pulseaudio
+media-video/ffmpeg

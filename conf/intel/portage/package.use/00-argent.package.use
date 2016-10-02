@@ -1,0 +1,88 @@
+app-admin/sudo -sendmail
+app-arch/bzip2 static-libs
+app-arch/xz-utils static-libs
+app-emulation/aqemu vnc
+app-emulation/docker aufs overlay
+app-emulation/libvirt numa virt-network
+app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
+app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
+app-misc/calamares-runtime branding
+dev-db/sqlite secure-delete
+dev-libs/libpcre pcre16
+dev-libs/libgusb vala
+dev-qt/qtgui:5 gtkstyle
+dev-qt/qtwidgets:5 gtkstyle
+dev-qt/qtwebchannel:5 qml
+dev-qt/qtwebengine:5 widgets
+dev-util/cmake -qt5
+dev-util/geany -gtk3
+dev-util/glade:3 -gnome
+games-fps/urbanterror smp sdl
+games-fps/xonotic sdl
+games-strategy/0ad sound
+gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
+gnome-extra/synapse -zeitgeist
+kde-frameworks/kio -kwallet
+lxqt-base/lxqt-meta branding
+mail-client/claws-mail -webkit -libindicate
+mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
+mate-base/mate -themes
+mate-extra/caja-extensions cdr upnp image-converter -mail
+media-gfx/sane-backends usb snmp
+media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
+media-gfx/xsane gimp lcms ocr
+media-libs/freetype static-libs
+media-libs/libpng static-libs
+media-libs/libmng static-libs
+media-libs/libjpeg static-libs
+media-libs/libjpeg-turbo static-libs
+media-libs/libsdl sound
+media-libs/libvpx postproc
+media-libs/mesa d3d9 gles1 gles2
+media-sound/qmmp qsui
+media-video/bomi cdda youtube-dl
+media-video/ffmpeg fdk
+media-video/mpv libmpv
+net-dns/dnsmasq script
+net-firewall/firewalld gui
+net-print/cnijfilter net servicetools
+net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
+net-print/hplip fax scanner snmp
+net-fs/samba client ldap syslog
+net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
+net-irc/quassel phonon -server -crypt
+net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
+net-misc/networkmanager connection-sharing resolvconf modemmanager
+net-misc/teamviewer -system-wine
+net-misc/youtube-dl offensive
+net-wireless/wpa_supplicant -qt5
+sys-apps/smartmontools minimal
+sys-apps/systemd sysv-utils
+sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
+sys-boot/grub static -truetype
+sys-devel/llvm clang
+sys-devel/gcc go
+sys-fs/cryptsetup -gcrypt
+sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/argent-sources symlink
+sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-libs/zlib minizip static-libs
+www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
+www-client/chromium widevine
+www-plugins/freshplayerplugin -gtk3
+x11-base/xorg-server xvfb
+x11-drivers/nvidia-drivers gtk2 uvm -gtk3
+x11-drivers/xf86-video-intel uxa
+x11-misc/lightdm -gnome
+x11-misc/lightdm-gtk-greeter branding
+x11-misc/spacefm gtk2 -gtk3
+x11-libs/gksu -gnome
+x11-libs/libdrm libkms
+x11-libs/wxGTK:2.8 -gnome -gstreamer
+x11-libs/wxGTK:3.0 -gstreamer
+xfce-base/xfdesktop -thunar
+x11-themes/gtk-engines-murrine -themes
+x11-themes/numix-gtk-theme metacity
+x11-themes/numix-gtk-theme-dark metacity
+x11-terms/terminator -gnome
