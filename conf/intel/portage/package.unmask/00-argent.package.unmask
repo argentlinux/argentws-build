@@ -1,6 +1,6 @@
 # unmask perl-Module-Build
 virtual/perl-Module-Build::gentoo
-app-admin/calamares::argent-work
+app-admin/calamares::argent-ws
 net-wireless/broadcom-sta::gentoo
 sys-firmware/b43-firmware::gentoo
 sys-firmware/b43legacy-firmware::gentoo

@@ -9,7 +9,7 @@ app-portage/portage-utils
 dev-libs/openssl
 dev-vcs/git
 net-misc/openssh
-sys-apps/baselayout::argent-work
+sys-apps/baselayout::argent-ws
 sys-apps/dbus
 sys-apps/mlocate
 sys-apps/systemd
