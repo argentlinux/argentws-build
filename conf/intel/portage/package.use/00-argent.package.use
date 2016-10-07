@@ -76,6 +76,7 @@ www-plugins/freshplayerplugin -gtk3
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 uvm -gtk3
 x11-drivers/xf86-video-intel uxa
+x11-drivers/xf86-video-qxl xspice
 x11-misc/lightdm -gnome
 x11-misc/lightdm-gtk-greeter branding
 x11-misc/spacefm gtk2 -gtk3
@@ -83,7 +84,6 @@ x11-libs/gksu -gnome
 x11-libs/libdrm libkms
 x11-libs/wxGTK:2.8 -gnome -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
-xfce-base/xfdesktop -thunar
 x11-themes/gtk-engines-murrine -themes
 x11-themes/numix-gtk-theme metacity
 x11-themes/numix-gtk-theme-dark metacity
