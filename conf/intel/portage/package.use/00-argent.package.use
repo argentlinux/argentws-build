@@ -9,6 +9,7 @@ app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 dev-db/sqlite secure-delete
+dev-lang/fpc source
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
 dev-qt/qtgui:5 gtkstyle
