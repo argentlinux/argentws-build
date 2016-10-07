@@ -10,6 +10,8 @@ app-emulation/steam ~amd64
 =app-emulation/virtualbox-guest-additions-5.0.16 ~amd64
 =app-emulation/virtualbox-modules-5.0.16 ~amd64
 app-office/wps-office ~amd64
+dev-lang/fpc ~amd64
+dev-lang/lazarus ~amd64
 dev-lang/tcl ~amd64
 dev-lang/tk ~amd64
 dev-ruby/paint ~amd64
