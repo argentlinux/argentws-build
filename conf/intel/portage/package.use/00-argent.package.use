@@ -1,5 +1,5 @@
 app-admin/sudo -sendmail
-app-admin/testdisk efw ntfs
+app-admin/testdisk ewf ntfs
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
 app-emulation/aqemu vnc
