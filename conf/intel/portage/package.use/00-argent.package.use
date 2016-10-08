@@ -13,9 +13,12 @@ dev-lang/fpc source
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
 dev-qt/qtgui:5 gtkstyle
+dev-qt/qtmultimedia:5 widgets
+dev-qt/qtpositioning:5 geoclue
 dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebchannel:5 qml
 dev-qt/qtwebengine:5 widgets
+dev-qt/qtwebkit geolocation multimedia orientation printsupport webchannel -gstreamer
 dev-util/cmake -qt5
 dev-util/geany -gtk3
 dev-util/glade:3 -gnome
@@ -45,6 +48,7 @@ media-sound/qmmp qsui
 media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk
 media-video/mpv libmpv
+media-video/obs-studio imagemagick fdk
 net-dns/dnsmasq script
 net-firewall/firewalld gui
 net-print/cnijfilter net servicetools

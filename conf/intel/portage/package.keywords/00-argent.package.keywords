@@ -28,6 +28,7 @@ media-tv/v4l-utils ~amd64
 media-video/guvcview ~amd64
 media-video/handbrake ~amd64
 media-video/mpv ~amd64
+media-video/obs-studio ~amd64
 net-im/skypeforlinux ~amd64
 net-libs/rb_libtorrent ~amd64
 net-misc/cmst ~amd64
