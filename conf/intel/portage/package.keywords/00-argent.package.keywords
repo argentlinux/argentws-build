@@ -47,6 +47,7 @@ sys-kernel/dracut ~amd64
 sys-kernel/genkernel-next ~amd64
 =sys-kernel/spl-0.6.5.4-r1 ~amd64
 sys-libs/kpmcore:5 ~amd64
+www-client/google-chrome ~amd64
 www-client/qupzilla ~amd64
 x11-apps/copyq ~amd64
 x11-apps/radeontop ~amd64
