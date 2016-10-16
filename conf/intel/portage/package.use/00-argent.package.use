@@ -66,7 +66,7 @@ net-wireless/wpa_supplicant -qt5
 sys-apps/smartmontools minimal
 sys-apps/systemd sysv-utils
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
-sys-boot/grub static -truetype
+sys-boot/grub -static -truetype
 sys-devel/llvm clang
 sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt
