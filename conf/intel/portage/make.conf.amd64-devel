@@ -14,7 +14,7 @@ LINGUAS="en en_US en_GB uk ro_RO ro"
 L10N="en en-US en-GB uk ro-RO ro"
 
 ## USE FLAGS ##
-SYSTEM_USE="X glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
+SYSTEM_USE="X device-mapper glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
 CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
 MEDIA_USE="cairo drm dri dri3 vaapi vdpau opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
 IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
