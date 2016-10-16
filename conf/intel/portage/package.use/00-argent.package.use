@@ -74,7 +74,7 @@ sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/argent-sources symlink
 sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
-sys-libs/libseccomp-2.3.0 static-libs
+sys-libs/libseccomp static-libs
 sys-libs/zlib minizip static-libs
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
 www-client/chromium widevine
