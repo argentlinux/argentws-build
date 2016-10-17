@@ -10,6 +10,7 @@ app-emulation/steam ~amd64
 =app-emulation/virtualbox-guest-additions-5.0.16 ~amd64
 =app-emulation/virtualbox-modules-5.0.16 ~amd64
 app-office/wps-office ~amd64
+dev-python/pafy ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
 dev-lang/tcl ~amd64
@@ -22,6 +23,7 @@ games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
 =media-gfx/graphite2-1.3.8 ~amd64
 media-gfx/scangearmp ~amd64
+media-sound/mps-youtube ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
 media-tv/v4l-utils ~amd64
