@@ -45,6 +45,8 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libsdl sound
 media-libs/libvpx postproc
 media-libs/mesa d3d9 gles1 gles2
+media-sound/audacious -gtk3 -qt5
+media-plugins/audacious-plugins -gtk3 -qt5
 media-sound/qmmp qsui
 media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk
