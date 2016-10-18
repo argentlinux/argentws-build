@@ -63,6 +63,7 @@ net-irc/quassel phonon -server -crypt
 net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
 net-misc/networkmanager connection-sharing resolvconf modemmanager
 net-misc/teamviewer -system-wine
+net-misc/tigervnc server
 net-misc/youtube-dl offensive
 net-wireless/wpa_supplicant -qt5
 sys-apps/smartmontools minimal
