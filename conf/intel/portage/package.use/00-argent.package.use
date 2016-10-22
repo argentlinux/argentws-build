@@ -67,7 +67,7 @@ net-misc/tigervnc server
 net-misc/youtube-dl offensive
 net-wireless/wpa_supplicant -qt5
 sys-apps/smartmontools minimal
-sys-apps/systemd sysv-utils
+sys-apps/systemd sysv-utils cryptsetup
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
 sys-boot/grub device-mapper mount -static truetype
 sys-devel/llvm clang
