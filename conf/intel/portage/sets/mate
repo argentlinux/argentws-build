@@ -4,7 +4,6 @@ app-arch/rar
 app-arch/unrar
 app-cdr/brasero
 app-crypt/seahorse
-app-emulation/steam
 app-office/libreoffice
 gnome-extra/nm-applet-gtk2
 mate-base/mate
@@ -22,7 +21,7 @@ net-irc/hexchat
 net-misc/networkmanager
 net-p2p/transmission
 sys-block/gparted
-www-client/firefox
+www-client/google-chrome
 x11-misc/lightdm
 x11-misc/mate-notification-daemon
 x11-misc/redshift
