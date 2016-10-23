@@ -54,7 +54,7 @@ www-client/google-chrome ~amd64
 www-client/qupzilla ~amd64
 x11-apps/copyq ~amd64
 x11-apps/radeontop ~amd64
-=x11-drivers/xf86-video-virtualbox-5.0.16 ~amd64
+x11-drivers/xf86-video-virtualbox ~amd64
 x11-drivers/nvidia-drivers ~amd64
 x11-libs/qtermwidget ~amd64
 x11-misc/primus ~amd64
