@@ -7,9 +7,9 @@ app-emulation/aqemu ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
-=app-emulation/virtualbox-bin-5.0.16.105871-r1 ~amd64
-=app-emulation/virtualbox-guest-additions-5.0.16 ~amd64
-=app-emulation/virtualbox-modules-5.0.16 ~amd64
+app-emulation/virtualbox-bin ~amd64
+app-emulation/virtualbox-guest-additions ~amd64
+app-emulation/virtualbox-modules ~amd64
 app-office/wps-office ~amd64
 dev-python/pafy ~amd64
 dev-lang/fpc ~amd64
