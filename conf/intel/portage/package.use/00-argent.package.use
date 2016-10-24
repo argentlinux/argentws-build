@@ -83,7 +83,7 @@ www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx syst
 www-client/chromium widevine
 www-plugins/freshplayerplugin -gtk3
 x11-base/xorg-server xvfb
-x11-drivers/nvidia-drivers gtk2 uvm -gtk3
+x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm -gtk3
 x11-drivers/xf86-video-intel uxa
 x11-drivers/xf86-video-qxl xspice
 x11-misc/lightdm -gnome
