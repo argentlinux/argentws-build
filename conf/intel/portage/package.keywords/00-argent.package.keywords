@@ -38,7 +38,7 @@ net-misc/cmst ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
 net-p2p/qbittorrent ~amd64
-net-wireless/broadcom-sta ~amd64
+=sys-kernel/broadcom-sta-dkms-6.30.223.271-r3 ~amd64
 sys-apps/inxi ~amd64
 sys-block/partitionmanager ~amd64
 sys-firmware/b43-firmware ~amd64
