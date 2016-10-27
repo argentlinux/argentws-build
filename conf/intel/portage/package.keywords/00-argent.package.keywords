@@ -6,6 +6,7 @@ app-editors/atom ~amd64
 app-emulation/aqemu ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
+=app-emulation/snapd-2.15.2 ~amd64
 app-emulation/steam ~amd64
 app-emulation/virtualbox-bin ~amd64
 app-emulation/virtualbox-guest-additions ~amd64
