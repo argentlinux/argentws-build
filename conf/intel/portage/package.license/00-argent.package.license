@@ -1,3 +1,4 @@
+app-arch/rar				RAR
 app-emulation/emul-linux-x86-java	dlj-1.1
 app-emulation/emul-linux-x86-java	Oracle-BCLA-JavaSE
 dev-java/sun-jce-bin			Oracle-BCLA-JavaSE sun-bcla-java-vm
