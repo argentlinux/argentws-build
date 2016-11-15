@@ -1,2 +1,3 @@
+app-editors/liteide gdb
 >=dev-java/swing-layout-1.0.4 source
 dev-lang/php truetype gd
