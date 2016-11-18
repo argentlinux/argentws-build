@@ -6,8 +6,8 @@ LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j8 -s"
 
 ## PORTAGE FEATURES ##
-FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug"
-EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
+FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug -userpriv"
+#PORTAGE_NICENESS="-19"
 
 ## SYSTEM LANGUAGES ##
 LINGUAS="en en_US en_GB uk ro_RO ro"
@@ -68,4 +68,3 @@ INSTALL_MASK="/etc/init.d
 	      /etc/runlevels"
 
 source /var/lib/layman/make.conf
-source /etc/portage/binhost.conf

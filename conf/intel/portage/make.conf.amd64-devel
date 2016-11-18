@@ -16,10 +16,10 @@ L10N="en en-US en-GB uk ro-RO ro"
 ## USE FLAGS ##
 SYSTEM_USE="X glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
 CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
-MEDIA_USE="cairo drm dri dri3 vaapi vdpau opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
+MEDIA_USE="cairo drm dri dri3 vaapi vdpau egl opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
 IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
 TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt3support qt5"
-NETWORK_USE="ipv6"
+NETWORK_USE="ipv6 avahi zeroconf"
 SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal"
 DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook"
 
@@ -27,7 +27,7 @@ USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETW
 
 ## DEVICES ##
 INPUT_DEVICES="evdev synaptics"
-VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa amdgpu radeonsi radeon"
+VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa amdgpu radeonsi radeon vmware"
 LIRC_DEVICES="audio audio_alsa serial pctv"
 
 ## OFFICE ##
