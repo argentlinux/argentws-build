@@ -1,5 +1,5 @@
 app-editors/liteide gdb
 >=dev-java/swing-layout-1.0.4 source
 dev-lang/php truetype gd
-net-dns/bind dlz mysql json urandom ldap
+net-dns/bind dlz mysql json urandom ldap -threads
 net-dns/bind-tools urandom
