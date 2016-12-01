@@ -4,6 +4,7 @@ app-admin/calamares::gentoo
 app-emulation/docker::gentoo
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
+>dev-ruby/facter-3.0
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
 mate-base/mate::gentoo
