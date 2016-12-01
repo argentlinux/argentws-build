@@ -1,5 +1,8 @@
 app-editors/liteide gdb
+=dev-db/sqlitebrowser-3.8.0 -qt4
 >=dev-java/swing-layout-1.0.4 source
+>=dev-java/junit-4.12-r1 source
+>=dev-java/oracle-jdk-bin-1.8.0.112 javafx
 dev-lang/php truetype gd
 net-dns/bind dlz geoip json ldap mysql urandom -threads
 net-dns/bind-tools urandom
