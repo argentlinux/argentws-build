@@ -1,2 +1,5 @@
 make.conf.amd64-custom
+make.conf.amd64-my
+make.conf.x86-custom
+make.conf.x86-my
 binhost-custom.conf
