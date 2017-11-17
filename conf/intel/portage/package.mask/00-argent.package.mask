@@ -16,6 +16,7 @@ sys-apps/openrc::gentoo
 sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
 >sys-apps/portage-2.2.28::gentoo
+sys-devel/gcc-config::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
 >sys-fs/xfsprogs-3.2.2
