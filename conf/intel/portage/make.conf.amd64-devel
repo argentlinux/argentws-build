@@ -21,7 +21,7 @@ IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
 TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt3support qt5"
 NETWORK_USE="ipv6 avahi zeroconf"
 SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal"
-DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook"
+DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook -hunspell"
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
