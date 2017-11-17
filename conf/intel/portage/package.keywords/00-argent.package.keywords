@@ -16,6 +16,7 @@ dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
 dev-lang/tcl ~amd64
 dev-lang/tk ~amd64
+=dev-util/goland-173.3531.21 ~amd64
 dev-ruby/paint ~amd64
 dev-ruby/trollop ~amd64
 dev-scheme/guile ~amd64
