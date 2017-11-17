@@ -48,6 +48,7 @@ sys-firmware/b43legacy-firmware ~amd64
 sys-fs/cryptsetup ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/genkernel-next ~amd64
+=sys-libs/lrmi-0.10-r1 ~amd64
 sys-libs/kpmcore:5 ~amd64
 www-client/google-chrome ~amd64
 www-client/qupzilla ~amd64
