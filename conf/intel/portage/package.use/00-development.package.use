@@ -6,3 +6,5 @@ app-editors/liteide gdb
 dev-lang/php truetype gd
 net-dns/bind dlz geoip json ldap mysql urandom -threads
 net-dns/bind-tools urandom
+sys-devel/gcc go gcj
+sys-devel/base-gcc go gcj
