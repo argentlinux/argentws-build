@@ -15,7 +15,7 @@ sys-apps/gentoo-systemd-integration::gentoo
 sys-apps/openrc::gentoo
 sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
->sys-apps/portage-2.2.28::gentoo
+sys-apps/portage-2.3.13-r1::gentoo
 sys-devel/gcc-config::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
