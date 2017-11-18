@@ -1,7 +1,6 @@
 app-admin/calamares::gentoo
 >app-arch/tar-1.29-r1::gentoo
 >app-editors/atom-1.7.2
-app-emulation/docker::gentoo
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 >dev-ruby/facter-3.0
