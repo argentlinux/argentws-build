@@ -1,14 +1,10 @@
 app-admin/calamares::gentoo
 >app-arch/tar-1.29-r1::gentoo
->app-editors/atom-1.7.2
-dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 >dev-ruby/facter-3.0
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
 mate-base/mate::gentoo
-net-firewall/firewalld::gentoo
-net-misc/teamviewer::gentoo
 sys-apps/baselayout::gentoo
 sys-apps/gentoo-systemd-integration::gentoo
 sys-apps/openrc::gentoo
