@@ -64,7 +64,6 @@ PORTDIR="/usr/portage"
 DISTDIR="${PORTDIR}/distfiles"
 
 INSTALL_MASK="/etc/init.d
-	      /etc/conf.d
 	      /etc/runlevels"
 
 source /var/lib/layman/make.conf
