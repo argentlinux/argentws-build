@@ -43,7 +43,6 @@ GENTOO_MIRRORS="http://mirror.bytemark.co.uk/gentoo/"
 ## PYTHON TARGETS ##
 USE_PYTHON="2.7 3.4"
 PYTHON_TARGETS="python2_7 python3_4"
-PYTHON_SINGLE_TARGET="python2_7"
 
 ## RUBY TARGETS ##
 RUBY_TARGETS="ruby20 ruby21 ruby22"
