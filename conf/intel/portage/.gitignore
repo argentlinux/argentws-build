@@ -3,3 +3,7 @@ make.conf.amd64-my
 make.conf.x86-custom
 make.conf.x86-my
 binhost-custom.conf
+package.use/01-my.package.use
+package.mask/01-my.package.mask
+package.unmask/01-my.package.unmask
+package.keywords/01-my.package.keywords
