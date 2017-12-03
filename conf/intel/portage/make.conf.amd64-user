@@ -45,7 +45,7 @@ USE_PYTHON="2.7 3.4"
 PYTHON_TARGETS="python2_7 python3_4"
 
 ## RUBY TARGETS ##
-RUBY_TARGETS="ruby20 ruby21 ruby22"
+RUBY_TARGETS="ruby21 ruby22"
 
 ## GRUB PLATFORMS ##
 GRUB_PLATFORMS="efi-64 pc"
