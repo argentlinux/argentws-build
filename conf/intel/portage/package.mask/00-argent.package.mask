@@ -15,7 +15,6 @@ sys-auth/polkit-qt::gentoo
 sys-devel/gcc-config::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
->sys-fs/xfsprogs-3.2.2
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
