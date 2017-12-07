@@ -1,8 +1,5 @@
 app-admin/calamares::gentoo
->app-arch/tar-1.29-r1::gentoo
 dev-libs/libdbusmenu-qt::gentoo
->dev-ruby/facter-3.0
->dev-qt/qtwebkit-5.7
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
 mate-base/mate::gentoo
