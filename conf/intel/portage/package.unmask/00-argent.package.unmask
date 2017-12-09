@@ -5,5 +5,5 @@ net-wireless/broadcom-sta::gentoo
 sys-firmware/b43-firmware::gentoo
 sys-firmware/b43legacy-firmware::gentoo
 www-plugins/google-talkplugin::gentoo
-=dev-qt/qtwebkit-4.8.7::gentoo #we know about the holes, but seems teamviewer doesn`t care
-=net-misc/teamviewer-12.0.85001 #as I've said, even the latest version doesn`t care
+=dev-qt/qtwebkit-4.8.7::gentoo #we know about the holes, but seems we don't care
+=net-misc/teamviewer-13.0.5494-r1 #teamviewer 13 does *NOT* use qtwebkit:4
