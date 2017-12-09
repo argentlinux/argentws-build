@@ -6,3 +6,4 @@
 <dev-util/goland-174 ~amd64
 =dev-util/goland-2017.3 ~amd64
 =dev-util/clion-2017.3 ~amd64
+=app-emulation/open-vm-tools-10.1.10 ~amd64
