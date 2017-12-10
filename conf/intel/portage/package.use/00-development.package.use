@@ -1,4 +1,4 @@
-=app-admin/calamares-3.1.9 python_targets_python3_5
+>=app-admin/calamares-3.1.9 python_targets_python3_5
 app-editors/liteide gdb
 =dev-db/sqlitebrowser-3.8.0 -qt4
 >=dev-libs/boost-1.63.0 python_targets_python3_5
