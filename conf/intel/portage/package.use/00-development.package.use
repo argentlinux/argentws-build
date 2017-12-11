@@ -15,4 +15,4 @@ sys-devel/gcc go gcj graphite
 sys-devel/base-gcc go gcj graphite
 
 #python 3.5 directive
-app-editors/vim python_targets_python3_5
+>=app-editors/vim-7 python_targets_python3_5 -python_targets_python3_4
