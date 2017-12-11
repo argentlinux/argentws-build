@@ -13,3 +13,6 @@ net-dns/bind dlz geoip json ldap mysql urandom -threads
 net-dns/bind-tools urandom
 sys-devel/gcc go gcj graphite
 sys-devel/base-gcc go gcj graphite
+
+#python 3.5 directive
+app-editors/vim python_targets_python3_5
