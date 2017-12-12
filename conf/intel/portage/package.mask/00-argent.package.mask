@@ -23,3 +23,5 @@ x11-misc/bumblebee::gentoo
 xfce-base/thunar::gentoo
 xfce-extra/xfce4-power-manager::gentoo
 >www-client/qupzilla-2.1.2
+>=lxqt-base/liblxqt-0.11
+>=lxqt-base/lxqt-panel-0.11
