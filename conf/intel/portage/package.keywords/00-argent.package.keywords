@@ -34,6 +34,7 @@ media-video/mpv ~amd64
 media-video/obs-studio ~amd64
 net-im/skypeforlinux ~amd64
 =net-im/discord-bin-0.0.2-r1 ~amd64
+=net-im/discord-bin-0.0.3 ~amd64
 net-libs/rb_libtorrent ~amd64
 net-misc/cmst ~amd64
 net-misc/teamviewer ~amd64
