@@ -37,3 +37,6 @@
 =lxqt-admin/lxqt-admin-0.12.0-r1 ~amd64
 =lxqt-session/lxqt-session-0.12.0-r2 ~amd64
 =lxqt-config/lxqt-config-0.12.0-r1 ~amd64
+=x11-libs/libfm-qt-0.12.0-r1 ~amd64
+=x11-misc/obconf-qt-0.12.0-r1 ~amd64
+=x11-misc/pcmanfm-qt-0.12.0-r1 ~amd64
