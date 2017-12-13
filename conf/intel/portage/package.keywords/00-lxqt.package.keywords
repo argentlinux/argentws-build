@@ -56,3 +56,6 @@
 =lxqt-base/lxqt-qtplugin-0.12.0-r1 ~amd64
 =x11-libs/libfm-1.2.5 ~amd64
 =lxqt-base/liblxqt-0.12.0-r1 ~amd64
+=lxqt-base/lxqt-build-tools-0.4.0-r1 ~amd64
+=dev-libs/libqtxdg-3.1.0 ~amd64
+=x11-libs/libfm-extra-1.2.5 ~amd64
