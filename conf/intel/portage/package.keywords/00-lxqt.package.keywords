@@ -54,3 +54,5 @@
 =lxqt-base/lxqt-admin-0.12.0-r1 ~amd64
 =lxqt-base/lxqt-policykit-0.12.0-r1 ~amd64
 =lxqt-base/lxqt-qtplugin-0.12.0-r1 ~amd64
+=x11-libs/libfm-1.2.5 ~amd64
+=lxqt-base/liblxqt-0.12.0-r1 ~amd64
