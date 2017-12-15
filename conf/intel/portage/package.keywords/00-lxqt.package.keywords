@@ -59,3 +59,4 @@
 =lxqt-base/lxqt-build-tools-0.4.0-r1 ~amd64
 =dev-libs/libqtxdg-3.1.0 ~amd64
 =x11-libs/libfm-extra-1.2.5 ~amd64
+=media-sound/pavucontrol-qt-0.3.0-r2 ~amd64

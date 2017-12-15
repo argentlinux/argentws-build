@@ -23,4 +23,3 @@ x11-misc/bumblebee::gentoo
 xfce-base/thunar::gentoo
 xfce-extra/xfce4-power-manager::gentoo
 >www-client/qupzilla-2.1.2
->=sys-devel/autogen-5.18.4-r1
