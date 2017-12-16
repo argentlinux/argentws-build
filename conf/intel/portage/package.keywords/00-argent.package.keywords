@@ -7,7 +7,6 @@ app-emulation/aqemu ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 =app-emulation/snapd-2.15.2 ~amd64
-app-emulation/steam ~amd64
 app-emulation/virtualbox-bin ~amd64
 app-emulation/virtualbox-guest-additions ~amd64
 app-office/wps-office ~amd64
@@ -20,8 +19,6 @@ dev-ruby/paint ~amd64
 dev-ruby/trollop ~amd64
 dev-scheme/guile ~amd64
 games-misc/lolcat ~amd64
-games-strategy/0ad ~amd64
-games-strategy/0ad-data ~amd64
 =media-gfx/graphite2-1.3.8 ~amd64
 media-gfx/scangearmp ~amd64
 media-sound/mps-youtube ~amd64
@@ -33,13 +30,12 @@ media-video/handbrake ~amd64
 media-video/mpv ~amd64
 media-video/obs-studio ~amd64
 net-im/skypeforlinux ~amd64
-=net-im/discord-bin-0.0.2-r1 ~amd64
 =net-im/discord-bin-0.0.3 ~amd64
 net-libs/rb_libtorrent ~amd64
 net-misc/cmst ~amd64
-net-misc/teamviewer ~amd64
+=net-misc/teamviewer-13.0.5494-r1 ~amd64
 net-misc/youtube-dl ~amd64
-net-p2p/qbittorrent ~amd64
+=net-p2p/qbittorrent-3.3.16 ~amd64
 =sys-kernel/broadcom-sta-dkms-6.30.223.271-r3 ~amd64
 sys-apps/inxi ~amd64
 =sys-apps/snap-confine-1.0.43 ~amd64
@@ -60,5 +56,4 @@ x11-libs/qtermwidget ~amd64
 =x11-libs/libvdpau-va-gl-0.3.4 ~amd64
 x11-misc/primus ~amd64
 x11-misc/xdg-utils ~amd64
-x11-terms/qterminal ~amd64
-=xfce-extra/xfce4-power-manager-1.4.4 ~amd64
+=x11-terms/qterminal-0.7.1 ~amd64
