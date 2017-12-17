@@ -63,6 +63,8 @@ ABI_X86="64 32"
 PORTDIR="/usr/portage"
 DISTDIR="${PORTDIR}/distfiles"
 
+CONFIG_PROTECT="/etc/localtime"
+
 INSTALL_MASK="/etc/init.d
 	      /etc/runlevels"
 
