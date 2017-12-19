@@ -13,6 +13,7 @@ sys-devel/gcc-config::gentoo
 >sys-devel/gcc-6::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
+sys-kernel/dracut::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
