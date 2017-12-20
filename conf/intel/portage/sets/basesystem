@@ -1,5 +1,6 @@
 app-admin/avasile
 app-editors/vim
+app-misc/argent-version
 app-misc/mc
 app-portage/eix
 app-portage/genlop
@@ -14,7 +15,6 @@ sys-apps/dbus
 sys-apps/mlocate
 sys-apps/systemd
 sys-boot/grub
-sys-devel/base-gcc
 sys-kernel/dracut
 sys-kernel/argent-sources
 sys-kernel/linux-argent
