@@ -14,6 +14,7 @@ sys-apps/dbus
 sys-apps/mlocate
 sys-apps/systemd
 sys-boot/grub
+sys-devel/base-gcc
 sys-kernel/dracut
 sys-kernel/argent-sources
 sys-kernel/linux-argent
