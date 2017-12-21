@@ -1,3 +1,5 @@
+	# to study MERGE_TYPE ( buildonly, source and binary )
+	# and of course, to be used down here
 	if [ "${EBUILD_PHASE}" == "postinst" ]; then
                 echo "First, I install."
         fi
