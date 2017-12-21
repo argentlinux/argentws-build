@@ -1,0 +1,26 @@
+	if [ "${EBUILD_PHASE}" == "postinst" ]; then
+                echo "First, I install."
+        fi
+        if [ "${EBUILD_PHASE}" == "postrm" ] && [ "${PVR}" != "${REPLACED_BY_VERSION}" ]; then
+                echo " "
+                echo "This is the case of either upgrading or downgrading."
+		echo "As a dev, this kind of 'packages-industry' is *maybe* what you need"
+		echo "If not, you're not supposed to use this script."
+		echo " "
+		if [ -e "/usr/portage/packages/${CATEGORY}/${PN}-${PVR}.tbz2" ]; then
+			# EPKG intented to save .tbz2 packages here anyway
+			# So we can do it officialy, even
+			mkdir -p /usr/share/epkg/backups/"${CATEGORY}"
+			cp "/usr/portage/packages/${CATEGORY}/${PN}-${PVR}.tbz2" /usr/share/epkg/backups/"${CATEGORY}"/
+			rm -f "/usr/portage/packages/${CATEGORY}/${PN}-${PVR}.tbz2"
+			emaint -f binhost
+		fi
+        elif [ "${EBUILD_PHASE}" == "postrm" ] && [ "${PVR}" == "${REPLACED_BY_VERSION}" ]; then
+                echo " "
+                echo "This is the case of reinstallation totally with the same version"
+                echo " "
+        elif [ "${EBUILD_PHASE}" == "postrm" ] && [ -z "${REPLACED_BY_VERSION}" ]; then
+                echo " "
+                echo "This is the case of new installation."
+                echo " "
+	fi
