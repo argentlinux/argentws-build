@@ -3,7 +3,7 @@ app-admin/testdisk ewf ntfs
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
 app-emulation/aqemu vnc
-app-emulation/docker overlay
+app-emulation/docker overlay pkcs11
 app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
