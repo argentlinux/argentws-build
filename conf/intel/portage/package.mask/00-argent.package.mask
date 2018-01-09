@@ -24,3 +24,9 @@ x11-misc/bumblebee::gentoo
 xfce-base/thunar::gentoo
 xfce-extra/xfce4-power-manager::gentoo
 >www-client/qupzilla-2.1.2
+# Virtualbox masked @ gentoo
+app-emulation/virtualbox-bin::gentoo
+app-emulation/virtualbox-guest-additions::gentoo
+app-emulation/virtualbox-modules::gentoo
+sys-kernel/virtualbox-modules-dkms::gentoo
+x11-drivers/xf86-video-virtualbox::gentoo
