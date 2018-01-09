@@ -2,7 +2,7 @@ if [ "${MERGE_TYPE}" == "source" ]; then
 	# to study MERGE_TYPE ( buildonly, source and binary )
 	# and of course, to be used down here
 	if [ "${EBUILD_PHASE}" == "postinst" ]; then
-                echo "First, I install."
+                echo " "
         fi
         if [ "${EBUILD_PHASE}" == "postrm" ] && [ "${PVR}" != "${REPLACED_BY_VERSION}" ]; then
                 echo " "
