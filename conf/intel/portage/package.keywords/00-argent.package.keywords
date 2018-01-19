@@ -59,7 +59,7 @@ x11-misc/xdg-utils ~amd64
 =app-crypt/argon2-20171227 ~amd64
 
 # more specific virtualbox packages here
-=app-emulation/virtualbox-guest-additions-5.1.30
-=app-emulation/virtualbox-modules-5.1.30
-=sys-kernel/virtualbox-modules-dkms-5.1.30
-=x11-drivers/xf86-video-virtualbox-5.1.30
+=app-emulation/virtualbox-guest-additions-5.1.30 ~amd64
+=app-emulation/virtualbox-modules-5.1.30 ~amd64
+=sys-kernel/virtualbox-modules-dkms-5.1.30 ~amd64
+=x11-drivers/xf86-video-virtualbox-5.1.30 ~amd64
