@@ -8,7 +8,6 @@ sys-apps/gentoo-systemd-integration::gentoo
 sys-apps/openrc::gentoo
 sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
->sys-apps/portage-2.3.13-r1::gentoo
 sys-devel/gcc-config::gentoo
 >sys-devel/gcc-6::gentoo
 sys-boot/grub::gentoo
@@ -24,7 +23,11 @@ x11-misc/bumblebee::gentoo
 xfce-base/thunar::gentoo
 xfce-extra/xfce4-power-manager::gentoo
 >www-client/qupzilla-2.1.2
-# Virtualbox masked @ gentoo
+
+# portage latest stable
+>sys-apps/portage-2.3.19-r1
+
+# virtualbox masked against gentoo
 app-emulation/virtualbox-bin::gentoo
 app-emulation/virtualbox-guest-additions::gentoo
 app-emulation/virtualbox-modules::gentoo
