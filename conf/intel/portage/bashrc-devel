@@ -10,11 +10,11 @@ if [ "${MERGE_TYPE}" == "source" ]; then
 		echo "As a dev, this kind of 'packages-industry' is *maybe* what you need"
 		echo "If not, you're not supposed to use this script."
 		echo " "
-		if [ -e "/usr/portage/packages/${CATEGORY}/${PN}-${PVR}.tbz2" ]; then
+		if [ -e "${PKGDIR}/${CATEGORY}/${PN}-${PVR}.tbz2" ]; then
 			# EPKG intented to save .tbz2 packages here anyway
 			# So we can do it officialy, even
 			mkdir -p /usr/share/epkg/backups/"${CATEGORY}"
-			mv "/usr/portage/packages/${CATEGORY}/${PN}-${PVR}.tbz2" /usr/share/epkg/backups/"${CATEGORY}"/
+			mv "${PKGDIR}/${CATEGORY}/${PN}-${PVR}.tbz2" /usr/share/epkg/backups/"${CATEGORY}"/
 			emaint -f binhost
 		fi
         elif [ "${EBUILD_PHASE}" == "postrm" ] && [ "${PVR}" == "${REPLACED_BY_VERSION}" ]; then
