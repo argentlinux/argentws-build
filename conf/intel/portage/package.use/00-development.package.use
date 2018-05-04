@@ -19,3 +19,6 @@ sys-devel/base-gcc go gcj graphite
 >=dev-libs/botan-2.3 boost
 >=dev-libs/gobject-introspection-1.50 python_targets_python3_5
 dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioning printsupport sensors sql webchannel webengine webkit websockets x11extras xmlpatterns widgets
+
+# libpcre with pcre16 apparently needed
+>=dev-libs/libpcre2-10.30 pcre16
