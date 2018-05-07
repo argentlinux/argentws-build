@@ -77,3 +77,4 @@ x11-misc/xdg-utils ~amd64
 =dev-qt/qtxmlpatterns-5.9.5 ~amd64
 =dev-qt/qtwebchannel-5.9.5 ~amd64
 =dev-qt/qttest-5.9.5 ~amd64
+=dev-qt/qtsql-5.9.5 ~amd64
