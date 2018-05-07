@@ -34,9 +34,6 @@ app-emulation/virtualbox-modules::gentoo
 sys-kernel/virtualbox-modules-dkms::gentoo
 x11-drivers/xf86-video-virtualbox::gentoo
 
-# autoconf masking latest version that breaks everything
-=sys-devel/autoconf-2.69-r4:2.69::gentoo
-
 # blacklisting nvidia-drivers against gentoo ones
 x11-drivers/nvidia-drivers::gentoo
 sys-kernel/nvidia-drivers-dkms::gentoo
