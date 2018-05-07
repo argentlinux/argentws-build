@@ -66,3 +66,9 @@ x11-misc/xdg-utils ~amd64
 
 # pynacl 1.2.0 madness solved
 =dev-python/pynacl-1.2.0 ~amd64
+
+# qt 5.9.5 stuff going here
+=dev-qt/qtgui-5.9.5 ~amd64
+=dev-qt/qtdbus-5.9.5 ~amd64
+=dev-qt/qtcore-5.9.5 ~amd64
+=dev-qt/qtwidgets-5.9.5 ~amd64
