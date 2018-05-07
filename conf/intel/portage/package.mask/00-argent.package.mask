@@ -24,9 +24,6 @@ xfce-base/thunar::gentoo
 xfce-extra/xfce4-power-manager::gentoo
 >www-client/qupzilla-2.1.2
 
-# portage latest stable
->sys-apps/portage-2.3.19-r1
-
 # virtualbox masked against gentoo
 app-emulation/virtualbox-bin::gentoo
 app-emulation/virtualbox-guest-additions::gentoo
