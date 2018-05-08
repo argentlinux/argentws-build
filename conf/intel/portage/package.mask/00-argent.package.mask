@@ -34,3 +34,7 @@ x11-drivers/xf86-video-virtualbox::gentoo
 # blacklisting nvidia-drivers against gentoo ones
 x11-drivers/nvidia-drivers::gentoo
 sys-kernel/nvidia-drivers-dkms::gentoo
+
+# blocking another autoconf
+# this is getting frustrating
+=sys-devel/autoconf-2.69:2.5
