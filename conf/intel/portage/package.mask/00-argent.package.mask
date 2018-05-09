@@ -22,7 +22,7 @@ x11-misc/qps::gentoo
 x11-misc/bumblebee::gentoo
 xfce-base/thunar::gentoo
 xfce-extra/xfce4-power-manager::gentoo
->www-client/qupzilla-2.1.2
+>www-client/qupzilla-2.2.5
 
 # virtualbox masked against gentoo
 app-emulation/virtualbox-bin::gentoo
