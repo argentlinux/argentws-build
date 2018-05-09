@@ -38,3 +38,7 @@ sys-kernel/nvidia-drivers-dkms::gentoo
 # blocking another autoconf
 # this is getting frustrating
 =sys-devel/autoconf-2.69:2.5
+
+# blocking icedtea-bin versions bigger than 3.6.0
+# we're not ready yet for those
+>=dev-java/icedtea-bin-3.7.0
