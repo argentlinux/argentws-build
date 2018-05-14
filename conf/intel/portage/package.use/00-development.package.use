@@ -22,3 +22,5 @@ dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioni
 
 # libpcre with pcre16 apparently needed
 >=dev-libs/libpcre2-10.30 pcre16
+
+>=www-client/w3m-0.5.3_p20180125 imlib
