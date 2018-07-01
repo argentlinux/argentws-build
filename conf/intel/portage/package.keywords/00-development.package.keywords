@@ -24,3 +24,7 @@
 # xpyb and util-linux stable
 =x11-libs/xpyb-1.3.1-r5 ~amd64
 =sys-apps/util-linux-2.32-r3 ~amd64
+
+# jdom-jaxen 1.0-r1 stable and jdom 1.0-r4
+=dev-java/jdom-jaxen-1.0-r1 ~amd64
+=dev-java/jdom-1.0-r4 ~amd64

@@ -28,7 +28,3 @@ dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioni
 
 # util-linux with tty helpers, these are the best
 sys-apps/util-linux tty-helpers
-
-# jdom-jaxen 1.0-r1 stable and jdom 1.0-r4
-=dev-java/jdom-jaxen-1.0-r1
-=dev-java/jdom-1.0-r4
