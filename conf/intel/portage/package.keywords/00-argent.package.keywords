@@ -70,3 +70,6 @@ x11-misc/xdg-utils ~amd64
 =app-emulation/wine-mono-4.7.1 ~amd64
 # required by wine-staging (argument)
 =app-emulation/wine-staging-3.10 ~amd64
+
+# enable mednafen
+=games-emulation/mednafen-0.9.46 ~amd64
