@@ -64,7 +64,7 @@ PORTDIR="/usr/portage"
 PKGDIR="/usr/portage/packages"
 DISTDIR="/usr/portage/distfiles"
 
-CONFIG_PROTECT="/etc/localtime"
+CONFIG_PROTECT="/etc/localtime /etc/default/grub"
 
 INSTALL_MASK="/etc/init.d
 	      /etc/runlevels"
