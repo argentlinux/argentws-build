@@ -73,3 +73,6 @@ x11-misc/xdg-utils ~amd64
 
 # enable mednafen
 =games-emulation/mednafen-0.9.46 ~amd64
+
+# keep old version of wine-d3d9-2.19 stable
+=app-emulation/wine-d3d9-2.19 ~amd64
