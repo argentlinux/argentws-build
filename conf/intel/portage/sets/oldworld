@@ -16,7 +16,5 @@ sys-apps/mlocate
 sys-apps/systemd
 sys-boot/grub
 sys-kernel/dracut
-sys-kernel/argent-sources:4.9
 sys-kernel/linux-argent:4.9
-sys-process/htop
 sys-process/lsof
