@@ -1,7 +1,6 @@
 app-admin/avasile
 app-editors/nano
 app-editors/vim
-app-misc/mc
 app-portage/epkg
 app-portage/genlop
 app-portage/gentoolkit
@@ -17,7 +16,7 @@ sys-apps/mlocate
 sys-apps/systemd
 sys-boot/grub
 sys-kernel/dracut
-sys-kernel/argent-sources
-sys-kernel/linux-argent
+sys-kernel/argent-sources:4.9
+sys-kernel/linux-argent:4.9
 sys-process/htop
 sys-process/lsof
