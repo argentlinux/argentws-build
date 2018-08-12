@@ -42,3 +42,6 @@ sys-kernel/nvidia-drivers-dkms::gentoo
 # blocking icedtea-bin versions bigger than 3.6.0
 # we're not ready yet for those
 >=dev-java/icedtea-bin-3.7.0
+
+# masking kbuild latest, for now
+=dev-util/kbuild-0.1.9998.3127
