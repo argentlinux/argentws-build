@@ -28,3 +28,6 @@
 # jdom-jaxen 1.0-r1 stable and jdom 1.0-r4
 =dev-java/jdom-jaxen-1.0-r1 ~amd64
 =dev-java/jdom-1.0-r4 ~amd64
+
+# new version of lxqt-build-tools mandatory required
+=dev-util/lxqt-build-tools-0.5.0 ~amd64

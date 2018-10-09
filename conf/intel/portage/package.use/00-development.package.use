@@ -28,3 +28,6 @@ dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioni
 
 # util-linux with tty helpers, these are the best
 sys-apps/util-linux tty-helpers
+
+# virtual/jpeg requires static-libs
+>=virtual/jpeg-0-r2:0 static-libs
