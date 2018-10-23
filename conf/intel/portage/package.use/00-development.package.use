@@ -31,3 +31,6 @@ sys-apps/util-linux tty-helpers
 
 # virtual/jpeg requires static-libs
 >=virtual/jpeg-0-r2:0 static-libs
+
+# nfs / rpcbind
+net-nds/rpcbind warmstarts
