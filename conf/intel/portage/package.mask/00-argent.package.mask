@@ -16,7 +16,6 @@ sys-kernel/dracut::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
-www-client/firefox::gentoo
 x11-base/xorg-drivers::gentoo
 x11-misc/qps::gentoo
 x11-misc/bumblebee::gentoo
