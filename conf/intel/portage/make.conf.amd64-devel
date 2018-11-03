@@ -56,6 +56,9 @@ DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop
 ## ABI SUPPORT ##
 ABI_X86="64 32"
 
+# LLVM_TARGET
+LLVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64 ARM"
+
 # Set PORTDIR for backward compatibility with various tools:
 #   gentoo-bashcomp - bug #478444
 #   euse - bug #474574
