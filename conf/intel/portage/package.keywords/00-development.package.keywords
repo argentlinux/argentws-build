@@ -13,6 +13,7 @@
 =sys-devel/autogen-5.18.12 ~amd64
 
 # enable all versions of rubygems
+=virtual/rubygems-15 ~amd64
 =virtual/rubygems-14 ~amd64
 =virtual/rubygems-13 ~amd64
 =virtual/rubygems-12 ~amd64
