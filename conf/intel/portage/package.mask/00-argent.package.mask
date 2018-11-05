@@ -44,3 +44,7 @@ sys-kernel/nvidia-drivers-dkms::gentoo
 
 # masking kbuild latest, for now
 =dev-util/kbuild-0.1.9998.3127
+
+# mask numix series against gentoo
+x11-themes/numix-icon-theme::gentoo
+x11-themes/numix-icon-theme-circle::gentoo
