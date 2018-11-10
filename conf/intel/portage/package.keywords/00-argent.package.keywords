@@ -77,3 +77,9 @@ x11-misc/xdg-utils ~amd64
 # keep old versions of wine-d3d9 stable
 =app-emulation/wine-d3d9-2.19 ~amd64
 =app-emulation/wine-d3d9-3.10 ~amd64
+
+# unmask icu latest stable
+=dev-libs/icu-60.2
+
+# unmasked arduino SDK related
+>=dev-util/astyle-3.1-r2 java
