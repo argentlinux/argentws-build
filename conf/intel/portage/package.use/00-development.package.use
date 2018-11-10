@@ -34,3 +34,6 @@ sys-apps/util-linux tty-helpers
 
 # nfs / rpcbind
 net-nds/rpcbind warmstarts
+
+# unmasked arduino SDK related
+>=dev-util/astyle-3.1-r2 java
