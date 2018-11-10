@@ -7,3 +7,7 @@ sys-firmware/b43legacy-firmware::gentoo
 www-plugins/google-talkplugin::gentoo
 =dev-qt/qtwebkit-4.8.7::gentoo #we know about the holes, but seems we don't care
 =net-misc/teamviewer-13.0.5494-r1 #teamviewer 13 does *NOT* use qtwebkit:4
+
+# unmask icu and thunderbird
+=dev-libs/icu-60.2
+=mail-client/thunderbird-60.3.0
