@@ -37,3 +37,9 @@ net-nds/rpcbind warmstarts
 
 # unmasked arduino SDK related
 >=dev-util/astyle-3.1-r2 java
+
+# RPM new USE flag
+app-arch/rpm PYTHON_SINGLE_TARGET: python2_7 -python3_5 -python3_6
+
+# asciidoc new USE flag
+app-text/asciidoc PYTHON_SINGLE_TARGET: python2_7
