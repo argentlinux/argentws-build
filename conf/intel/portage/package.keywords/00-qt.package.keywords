@@ -69,7 +69,7 @@
 # qt 5.11.1 stuff going here
 =dev-qt/qtgui-5.11.1 ~amd64
 =dev-qt/qtdbus-5.11.1 ~amd64
-=dev-qt/qtcore-5.11.1 ~amd64
+=dev-qt/qtcore-5.11.1-r1 ~amd64
 =dev-qt/qtwidgets-5.11.1 ~amd64
 =dev-qt/qtnetwork-5.11.1 ~amd64
 =dev-qt/qtdeclarative-5.11.1 ~amd64
