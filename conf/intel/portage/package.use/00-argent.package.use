@@ -65,7 +65,7 @@ net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel phonon -server -crypt
 net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc
-net-misc/networkmanager connection-sharing resolvconf modemmanager
+net-misc/networkmanager connection-sharing modemmanager
 net-misc/teamviewer -system-wine
 net-misc/tigervnc server
 net-misc/youtube-dl offensive
