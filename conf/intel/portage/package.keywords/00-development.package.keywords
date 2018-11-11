@@ -32,3 +32,7 @@
 
 # new version of lxqt-build-tools mandatory required
 =dev-util/lxqt-build-tools-0.5.0 ~amd64
+
+# qtox + tox unmask
+=net-im/qtox-1.16.3 ~amd64
+=net-libs/tox-0.2.8 ~amd64
