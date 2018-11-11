@@ -106,3 +106,6 @@
 =lxqt-base/libsysstat-0.4.0-r2 ~amd64
 =dev-util/lxqt-build-tools-0.4.0 ~amd64
 =x11-misc/compton-conf-0.3.0 ~amd64
+
+# lxqt 0.13
+lxqt-base/lxqt-policykit-0.13.0
