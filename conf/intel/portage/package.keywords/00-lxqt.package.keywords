@@ -124,7 +124,6 @@
 =lxqt-powermanagement/lxqt-powermanagement-0.13.0 ~amd64
 =lxqt-qtplugin/lxqt-qtplugin-0.13.0 ~amd64
 =lxqt-runner/lxqt-runner-0.13.0 ~amd64
-=lxqt-session/files/session.conf
 =lxqt-session/lxqt-session-0.13.0-r1 ~amd64
 =lxqt-sudo/lxqt-sudo-0.13.0 ~amd64
 =lxqt-themes/lxqt-themes-0.13.0 ~amd64
