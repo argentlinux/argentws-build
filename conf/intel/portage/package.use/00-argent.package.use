@@ -103,3 +103,6 @@ x11-themes/gtk-engines-murrine -themes
 x11-themes/numix-gtk-theme metacity
 x11-themes/numix-gtk-theme-dark metacity
 x11-terms/terminator -gnome
+
+# polkit without GTK
+sys-auth/polkit -gtk
