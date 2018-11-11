@@ -109,3 +109,22 @@
 
 # lxqt 0.13
 =lxqt-base/lxqt-policykit-0.13.0 ~amd64
+=liblxqt/liblxqt-0.13.0 ~amd64
+=lxqt-about/lxqt-about-0.13.0 ~amd64
+=lxqt-admin/lxqt-admin-0.13.0 ~amd64
+=lxqt-build-tools/lxqt-build-tools-0.5.0 ~amd64
+=lxqt-config/lxqt-config-0.13.0 ~amd64
+=lxqt-globalkeys/lxqt-globalkeys-0.13.0 ~amd64
+=lxqt-l10n/lxqt-l10n-0.13.0 ~amd64
+=lxqt-meta/lxqt-meta-0.13.0 ~amd64
+=lxqt-notificationd/lxqt-notificationd-0.13.0 ~amd64
+=lxqt-openssh-askpass/lxqt-openssh-askpass-0.13.0 ~amd64
+=lxqt-panel/lxqt-panel-0.13.0 ~amd64
+=lxqt-policykit/lxqt-policykit-0.13.0 ~amd64
+=lxqt-powermanagement/lxqt-powermanagement-0.13.0 ~amd64
+=lxqt-qtplugin/lxqt-qtplugin-0.13.0 ~amd64
+=lxqt-runner/lxqt-runner-0.13.0 ~amd64
+=lxqt-session/files/session.conf
+=lxqt-session/lxqt-session-0.13.0-r1 ~amd64
+=lxqt-sudo/lxqt-sudo-0.13.0 ~amd64
+=lxqt-themes/lxqt-themes-0.13.0 ~amd64
