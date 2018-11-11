@@ -6,7 +6,6 @@ mate-base/mate::gentoo
 sys-apps/baselayout::gentoo
 sys-apps/gentoo-systemd-integration::gentoo
 sys-apps/openrc::gentoo
-sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
 sys-devel/gcc-config::gentoo
 >sys-devel/gcc-6::gentoo
