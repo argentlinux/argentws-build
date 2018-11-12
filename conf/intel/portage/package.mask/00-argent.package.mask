@@ -47,3 +47,6 @@ sys-kernel/nvidia-drivers-dkms::gentoo
 # mask numix series against gentoo
 x11-themes/numix-icon-theme::gentoo
 x11-themes/numix-icon-theme-circle::gentoo
+
+# mask protobuf-python because we don`t know what we're doing for now
+>=dev-python/protobuf-python-3.6.1
