@@ -52,4 +52,4 @@ x11-themes/numix-icon-theme-circle::gentoo
 >=dev-python/protobuf-python-3.6.1
 
 # everything above kbuild-0.1.9998_pre20131130-r1 should be masked
->=dev-util/kbuild-0.1.9998_pre20131130-r1
+>dev-util/kbuild-0.1.9998_pre20131130-r1
