@@ -50,3 +50,6 @@ x11-themes/numix-icon-theme-circle::gentoo
 
 # mask protobuf-python because we don`t know what we're doing for now
 >=dev-python/protobuf-python-3.6.1
+
+# everything above kbuild-0.1.9998_pre20131130-r1 should be masked
+>=sys-devel/kbuild-0.1.9998_pre20131130-r1
