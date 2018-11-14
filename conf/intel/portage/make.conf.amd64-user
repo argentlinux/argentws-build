@@ -14,24 +14,16 @@ LINGUAS="en en_US en_GB uk ro_RO ro"
 L10N="en en-US en-GB uk ro-RO ro"
 
 ## USE FLAGS ##
-SYSTEM_USE="X cacert glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
-CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
-MEDIA_USE="cairo drm dri dri3 vaapi vdpau egl opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
-IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
-TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt3support qt5"
-NETWORK_USE="ipv6 avahi zeroconf"
-SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal"
-DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook -hunspell"
+SYSTEM_USE="systemd udev dbus cacert -policykit polkit upower udisks python perl -icu xattr acl -introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
+NETWORK_USE="ipv6 openpgp pkcs11 sslv2 sslv3"
+SOUND_USE="-alsa -pulseaudio -gstreamer -ffmpeg -penal -javafx"
+DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook -gtk -gnome-keyring -qt -qt4 -qt5"
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
 ## DEVICES ##
 INPUT_DEVICES="evdev synaptics"
-VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa amdgpu radeonsi radeon vmware"
 LIRC_DEVICES="audio audio_alsa serial pctv"
-
-## OFFICE ##
-LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport"
 
 ## QEMU ##
 QEMU_USER_TARGETS="x86_64 i386"
@@ -41,8 +33,8 @@ QEMU_SOFTMMU_TARGETS="x86_64 i386"
 GENTOO_MIRRORS="http://mirror.bytemark.co.uk/gentoo/"
 
 ## PYTHON TARGETS ##
-USE_PYTHON="2.7 3.4 3.5"
-PYTHON_TARGETS="python2_7 python3_4 python3_5"
+USE_PYTHON="2.7 3.5"
+PYTHON_TARGETS="python2_7 python3_5"
 PYTHON_SINGLE_TARGET="python3_5"
 
 ## RUBY TARGETS ##
@@ -51,27 +43,28 @@ RUBY_TARGETS="ruby22 ruby23"
 ## GRUB PLATFORMS ##
 GRUB_PLATFORMS="efi-64 pc"
 
+# LLVM_TARGET
+LLVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64 ARM"
+
 ## DRACUT MODULES ##
 DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
 
 ## ABI SUPPORT ##
-ABI_X86="64 32"
-
-# LLVM_TARGET
-LLVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64 ARM"
+ABI_X86="64"
 
 # Set PORTDIR for backward compatibility with various tools:
 #   gentoo-bashcomp - bug #478444
 #   euse - bug #474574
 #   euses and ufed - bug #478318
 PORTDIR="/usr/portage"
+DISTDIR="${PORTDIR}/distfiles"
 PKGDIR="/usr/portage/packages"
-DISTDIR="/usr/portage/distfiles"
 
 CONFIG_PROTECT="/etc/localtime /etc/default/grub /etc/grub.d/10_linux"
 
 INSTALL_MASK="/etc/init.d
-	      /etc/runlevels"
+              /etc/conf.d
+              /etc/runlevels"
 
 source /var/lib/layman/make.conf
 source /etc/portage/binhost.conf

@@ -1,0 +1,25 @@
+app-admin/calamares::gentoo
+>app-editors/atom-1.7.2
+dev-libs/icu::gentoo
+dev-libs/libdbusmenu-qt::gentoo
+lxqt-base/lxqt-meta::gentoo
+mate-base/mate::gentoo
+net-misc/teamviewer::gentoo
+sys-apps/baselayout::gentoo
+sys-apps/openrc::gentoo
+sys-auth/polkit::gentoo
+sys-auth/polkit-qt::gentoo
+dev-db/mariadb
+sys-boot/grub::gentoo
+sys-boot/plymouth::gentoo
+sys-kernel/genkernel::gentoo
+sys-kernel/genkernel-next::gentoo
+virtual/linux-sources::gentoo
+x11-base/xorg-drivers::gentoo
+x11-misc/qps::gentoo
+x11-misc/bumblebee::gentoo
+xfce-base/thunar::gentoo
+xfce-extra/xfce4-power-manager::gentoo
+
+# GCC 7.x mask for now
+>sys-devel/gcc-5.5.0

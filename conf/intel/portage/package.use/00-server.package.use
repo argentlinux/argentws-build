@@ -1,0 +1,131 @@
+app-admin/sudo -sendmail
+app-admin/testdisk ewf ntfs
+app-arch/bzip2 static-libs
+app-arch/xz-utils static-libs
+app-emulation/aqemu vnc
+app-emulation/docker overlay
+app-emulation/libvirt numa virt-network
+app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
+app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
+app-misc/calamares-runtime branding
+dev-db/sqlite secure-delete
+dev-db/mysql abi_x86_32
+dev-lang/fpc source
+dev-libs/libpcre pcre16
+dev-libs/libgusb vala
+dev-libs/openssl abi_x86_32
+dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
+dev-qt/qtgui:5 gtkstyle
+dev-qt/qtmultimedia:5 widgets
+dev-qt/qtpositioning:5 geoclue
+dev-qt/qtwidgets:5 gtkstyle
+dev-qt/qtwebchannel:5 qml
+dev-qt/qtwebengine:5 widgets
+dev-qt/qtwebkit geolocation multimedia orientation printsupport webchannel -gstreamer
+dev-util/cmake -qt5
+dev-util/geany -gtk3
+dev-util/glade:3 -gnome
+dev-java/oracle-jdk-bin alsa -javafx
+games-fps/urbanterror smp sdl
+games-fps/xonotic sdl
+games-strategy/0ad sound
+gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
+gnome-extra/synapse -zeitgeist
+kde-frameworks/kio -kwallet
+lxqt-base/lxqt-meta branding
+mail-client/claws-mail -webkit -libindicate
+mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
+mate-base/mate -themes
+mate-extra/caja-extensions cdr upnp image-converter -mail
+media-gfx/sane-backends usb snmp
+media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
+media-gfx/xsane gimp lcms ocr
+media-libs/freetype static-libs
+media-libs/libpng static-libs
+media-libs/libmng static-libs
+media-libs/libjpeg static-libs
+media-libs/libjpeg-turbo static-libs
+media-libs/libsdl sound
+media-libs/libvpx postproc
+media-libs/mesa d3d9 gles1 gles2
+media-sound/audacious -gtk3 -qt5
+media-plugins/audacious-plugins -gtk3 -qt5
+media-sound/qmmp qsui
+media-video/bomi cdda youtube-dl
+media-video/ffmpeg fdk
+media-video/mpv libmpv
+media-video/obs-studio imagemagick fdk
+net-analyzer/nmap -zenmap
+>=net-analyzer/nmap-7.40 -zenmap
+net-dns/dnsmasq script
+net-firewall/firewalld gui
+net-print/cnijfilter net servicetools
+net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
+net-print/hplip fax scanner snmp
+net-fs/samba client ldap syslog
+net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
+net-irc/quassel phonon -server -crypt
+net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
+net-misc/networkmanager connection-sharing modemmanager
+net-misc/teamviewer -system-wine
+net-misc/tigervnc server
+net-misc/youtube-dl offensive
+net-wireless/wpa_supplicant -qt5
+sys-apps/smartmontools minimal
+sys-apps/systemd sysv-utils cryptsetup
+sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
+sys-devel/llvm clang
+sys-devel/gcc go
+sys-fs/cryptsetup -gcrypt
+sys-fs/dosfstools compat
+sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/argent-sources symlink
+sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-libs/libseccomp static-libs
+sys-libs/zlib minizip static-libs
+www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
+www-client/chromium widevine
+www-plugins/freshplayerplugin -gtk3
+www-servers/apache apache2_modules_access_compat
+x11-base/xorg-server xvfb
+x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm -gtk3
+x11-drivers/xf86-video-intel uxa
+x11-drivers/xf86-video-qxl xspice
+x11-misc/lightdm -gnome
+x11-misc/lightdm-gtk-greeter branding
+x11-misc/spacefm gtk2 -gtk3
+x11-libs/gksu -gnome
+x11-libs/libdrm libkms
+x11-libs/wxGTK:2.8 -gnome -gstreamer
+x11-libs/wxGTK:3.0 -gstreamer
+x11-themes/gtk-engines-murrine -themes
+x11-themes/numix-gtk-theme metacity
+x11-themes/numix-gtk-theme-dark metacity
+x11-terms/terminator -gnome
+dev-vcs/subversion -perl -python
+>=sys-libs/zlib-1.2.11-r1 abi_x86_32
+>=virtual/libmysqlclient-18 abi_x86_32
+>=net-misc/modemmanager-1.6.4 -policykit
+sys-apps/util-linux python_targets_python3_5 
+sys-fs/cryptsetup python_targets_python3_5
+net-vpn/vtun lzo socks5
+
+# specific package USEs
+app-editors/liteide gdb
+=dev-db/sqlitebrowser-3.8.0 -qt4
+>=dev-java/swing-layout-1.0.4 source
+>=dev-java/junit-4.12-r1 source
+>=dev-java/oracle-jdk-bin-1.8.0.152-r1:1.8 -javafx
+dev-java/oracle-jdk-bin -javafx
+dev-libs/xmlsec nss
+dev-lang/php truetype gd
+net-analyzer/nmap zenmap
+net-dns/bind dlz geoip json ldap mysql urandom -threads
+net-dns/bind-tools urandom
+sys-devel/gcc go gcj graphite
+sys-devel/base-gcc go gcj graphite
+dev-util/meson python_targets_python3_5
+>=dev-python/lxml-4.1.1 python_targets_python3_5
+>=dev-python/certifi-2017.4.17 python_targets_python3_5
+>=dev-python/setuptools-36.7.2 python_targets_python3_5
