@@ -129,3 +129,6 @@ dev-util/meson python_targets_python3_5
 >=dev-python/lxml-4.1.1 python_targets_python3_5
 >=dev-python/certifi-2017.4.17 python_targets_python3_5
 >=dev-python/setuptools-36.7.2 python_targets_python3_5
+
+# imlib2 without X
+media-libs/imlib2 -shm -X
