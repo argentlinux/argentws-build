@@ -14,7 +14,7 @@ LINGUAS="en en_US en_GB uk ro_RO ro"
 L10N="en en-US en-GB uk ro-RO ro"
 
 ## USE FLAGS ##
-SYSTEM_USE="systemd udev dbus cacert -policykit polkit upower udisks python perl -icu xattr acl -introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
+SYSTEM_USE="systemd udev dbus cacert -policykit polkit upower udisks python perl -icu xattr acl -introspection gudev threads truetype fontconfig curl  openssl libnotify sqlite"
 NETWORK_USE="ipv6 openpgp pkcs11 sslv2 sslv3"
 SOUND_USE="-alsa -pulseaudio -gstreamer -ffmpeg -penal -javafx"
 DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook -gtk -gnome-keyring -qt -qt4 -qt5"
