@@ -132,3 +132,6 @@ dev-util/meson python_targets_python3_5
 
 # imlib2 without X
 media-libs/imlib2 -shm -X
+
+# cairo without X
+x11-libs/cairo -X
