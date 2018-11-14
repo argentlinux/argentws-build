@@ -17,7 +17,7 @@ L10N="en en-US en-GB uk ro-RO ro"
 SYSTEM_USE="systemd udev dbus cacert -policykit polkit upower udisks python perl -icu xattr acl -introspection gudev threads truetype fontconfig curl  openssl libnotify sqlite"
 NETWORK_USE="ipv6 openpgp pkcs11 sslv2 sslv3"
 SOUND_USE="-alsa -pulseaudio -gstreamer -ffmpeg -penal -javafx"
-DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook -gtk -gnome-keyring -qt -qt4 -qt5"
+DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook -gtk -gnome-keyring -qt -qt4 -qt5 -X"
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
