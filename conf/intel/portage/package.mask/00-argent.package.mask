@@ -53,3 +53,6 @@ x11-themes/numix-icon-theme-circle::gentoo
 
 # everything above kbuild-0.1.9998_pre20131130-r1 should be masked
 >dev-util/kbuild-0.1.9998_pre20131130-r1
+
+# mask gentoo's lxqt-build-tools
+dev-util/lxqt-build-tools
