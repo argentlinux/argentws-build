@@ -1,0 +1,2 @@
+# enable PHP 7.x with pdo and fpm
+>=dev-lang/php-7.2.10 pdo fpm xmlreader
