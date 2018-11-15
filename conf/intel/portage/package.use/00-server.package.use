@@ -135,3 +135,6 @@ media-libs/imlib2 -shm -X
 
 # cairo without X
 x11-libs/cairo -X
+
+# enable PHP 7.x with pdo and fpm
+>=dev-lang/php-7.2.10 pdo fpm xmlreader
