@@ -1,9 +1,20 @@
+# make.conf
 make.conf.amd64-custom
 make.conf.amd64-my
+
 make.conf.x86-custom
 make.conf.x86-my
+
+# binhost
 binhost-custom.conf
+
+#package.*
 package.use/01-my.package.use
 package.mask/01-my.package.mask
 package.unmask/01-my.package.unmask
 package.keywords/01-my.package.keywords
+
+package.use/01-custom.use
+package.mask/01-custom.mask
+package.unmask/01-custom.unmask
+package.keywords/01-custom.keywords
