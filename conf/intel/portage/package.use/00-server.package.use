@@ -119,7 +119,6 @@ app-editors/liteide gdb
 >=dev-java/oracle-jdk-bin-1.8.0.152-r1:1.8 -javafx
 dev-java/oracle-jdk-bin -javafx
 dev-libs/xmlsec nss
-dev-lang/php truetype gd
 net-analyzer/nmap zenmap
 net-dns/bind dlz geoip json ldap mysql urandom -threads
 net-dns/bind-tools urandom
@@ -137,6 +136,7 @@ media-libs/imlib2 -shm -X
 x11-libs/cairo -X
 
 # enable PHP 7.x with pdo and fpm
+dev-lang/php truetype gd apache2
 >=dev-lang/php-7.2.10 pdo fpm xmlreader
 >=app-eselect/eselect-php-0.9.4-r5 fpm
 
