@@ -1,3 +1,6 @@
+### THIS FILE IS SYNCED USING GIT ###
+### USE 01-custom.* FOR USER CHANGES ###
+
 app-admin/calamares::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 lxqt-base/lxqt-meta::gentoo
