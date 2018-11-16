@@ -36,3 +36,6 @@
 # qtox + tox unmask
 =net-im/qtox-1.16.3 ~amd64
 =net-libs/tox-0.2.8 ~amd64
+
+# new numix-icon-themes
+=x11-themes/numix-icon-theme-18.07.17
