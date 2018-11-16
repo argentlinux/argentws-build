@@ -21,8 +21,6 @@ virtual/linux-sources::gentoo
 x11-base/xorg-drivers::gentoo
 x11-misc/qps::gentoo
 x11-misc/bumblebee::gentoo
-xfce-base/thunar::gentoo
-xfce-extra/xfce4-power-manager::gentoo
 >www-client/qupzilla-2.2.5
 
 # virtualbox masked against gentoo
