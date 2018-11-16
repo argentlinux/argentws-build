@@ -141,4 +141,4 @@ x11-libs/cairo -X
 >=app-eselect/eselect-php-0.9.4-r5 fpm
 
 # mediawiki with vhosts
-sys-apps/mediawiki vhosts
+www-apps/mediawiki vhosts
