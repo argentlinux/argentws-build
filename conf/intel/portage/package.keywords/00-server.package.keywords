@@ -2,4 +2,4 @@
 =sys-apps/util-linux-2.32-r3 ~amd64
 
 # jenkins-bin version LTS keyworded
-dev-util/jenkins-bin-2.138.3.ebuild ~amd64
+=dev-util/jenkins-bin-2.138.3 ~amd64
