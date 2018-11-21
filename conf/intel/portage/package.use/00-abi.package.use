@@ -1,0 +1,5 @@
+virtual/libintl abi_x86_32
+app-arch/bzip2 abi_x86_32
+app-arch/xz-utils abi_x86_32
+sys-apps/file abi_x86_32
+sys-apps/util-linux abi_x86_32
