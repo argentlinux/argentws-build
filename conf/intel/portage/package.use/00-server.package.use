@@ -75,7 +75,6 @@ sys-apps/smartmontools minimal
 sys-apps/systemd sysv-utils cryptsetup
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
 sys-devel/llvm clang
-sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt
 sys-fs/dosfstools compat
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
@@ -122,8 +121,6 @@ dev-libs/xmlsec nss
 net-analyzer/nmap zenmap
 net-dns/bind dlz geoip json ldap mysql urandom -threads
 net-dns/bind-tools urandom
-sys-devel/gcc go gcj graphite
-sys-devel/base-gcc go gcj graphite
 dev-util/meson python_targets_python3_5
 >=dev-python/lxml-4.1.1 python_targets_python3_5
 >=dev-python/certifi-2017.4.17 python_targets_python3_5
