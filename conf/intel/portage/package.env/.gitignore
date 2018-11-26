@@ -1,2 +1,2 @@
-00-custom.package.env
-00-my.package.env
+*.*
+!00-argent.package.env

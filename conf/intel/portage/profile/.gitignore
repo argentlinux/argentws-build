@@ -1,3 +1,4 @@
-package-custom.provided
-use-custom.mask
-virtuals-custom
+*.*
+!package.provided
+!use.mask
+!virtuals

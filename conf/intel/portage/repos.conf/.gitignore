@@ -1,2 +1,2 @@
-gentoo-custom.conf
-my-gentoo.conf
+*.*
+!gentoo.conf
