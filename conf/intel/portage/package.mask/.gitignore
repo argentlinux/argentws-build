@@ -1,3 +1,3 @@
-00-custom.package.mask
-00-my.package.mask
-01-personal.custom.mask
+*.*
+!00-argent.package.mask
+!00-server.package.mask

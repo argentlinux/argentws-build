@@ -1,2 +1,8 @@
-00-custom.package.use
-00-my.package.use
+*.*
+!00-abi.package.use
+!00-argent.package.use
+!00-development.package.use
+!00-lumina.package.use
+!00-mate.package.use
+!00-media-temporary.package.use
+!00-server.package.use

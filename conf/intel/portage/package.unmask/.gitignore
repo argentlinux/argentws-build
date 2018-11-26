@@ -1,2 +1,3 @@
-00-custom.package.unmask
-00-my.package.unmask
+*.*
+!00-argent.package.unmask
+!00-mesastack.package.unmask

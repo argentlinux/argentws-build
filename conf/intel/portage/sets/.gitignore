@@ -1,1 +1,8 @@
-ownset
+*.*
+!artwork
+!basesystem
+!lxqt
+!multimedia
+!oldworld
+!tools
+!xorg
