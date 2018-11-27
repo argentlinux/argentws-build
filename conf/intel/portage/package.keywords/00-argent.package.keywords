@@ -80,3 +80,7 @@ x11-misc/xdg-utils ~amd64
 
 # unmask icu latest stable
 =dev-libs/icu-60.2
+
+# wine-any 3.18, mono-4.7.3
+=app-emulation/wine-any-3.18 ~amd64
+=app-emulation/wine-mono-4.7.3 ~amd64
