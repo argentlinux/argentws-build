@@ -33,7 +33,10 @@ kde-frameworks/kio -kwallet
 lxqt-base/lxqt-meta branding
 lxqt-base/lxqt-panel colorpicker cpuload networkmonitor sensors statusnotifier sysstat worldclock
 mail-client/claws-mail -webkit -libindicate
-mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
+
+# thudnerbir flags
+mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi bindist
+
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
 media-gfx/sane-backends usb snmp
