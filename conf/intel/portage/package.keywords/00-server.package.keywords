@@ -5,4 +5,4 @@
 =dev-util/jenkins-bin-2.138.3 ~amd64
 
 # unmask JSON-PP
-=perl-core/JSON-PP-2.273.0 ~amd64
+=perl-core/JSON-PP-2.273.0 **
