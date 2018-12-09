@@ -5,7 +5,8 @@
 =dev-util/jenkins-bin-2.138.3 ~amd64
 =dev-util/jenkins-bin-2.138.4 ~amd64
 
-# Nextcloud 14.x
+# Nextcloud 13.x & 14.x
+=www-apps/nextcloud-13.0.8 ~amd64
 =www-apps/nextcloud-14.0.4 ~amd64
 
 # unmask JSON-PP
