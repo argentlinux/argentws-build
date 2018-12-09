@@ -3,3 +3,7 @@
 
 # jenkins-bin version LTS keyworded
 =dev-util/jenkins-bin-2.138.3 ~amd64
+=dev-util/jenkins-bin-2.138.4 ~amd64
+
+# Nextcloud 14.x
+=www-apps/nextcloud-14.0.4 ~amd64

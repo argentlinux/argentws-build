@@ -6,7 +6,11 @@ app-editors/liteide gdb
 >=dev-java/junit-4.12-r1 source
 >=dev-java/oracle-jdk-bin-1.8.0.112 javafx
 dev-libs/xmlsec nss
-dev-lang/php truetype gd
+
+# PHP specific flags
+dev-lang/php truetype gd 
+>=dev-lang/php-7.2.10 xmlwriter zip intl
+
 dev-qt/qt-creator designer
 net-analyzer/nmap zenmap
 net-dns/bind dlz geoip json ldap mysql urandom -threads

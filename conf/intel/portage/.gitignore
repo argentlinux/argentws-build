@@ -2,3 +2,10 @@
 !make.conf.amd64-devel
 !make.conf.amd64-user
 !make.conf.amd64-srcmode
+!conf/intel/portage/package.env
+!conf/intel/portage/package.keywords
+!conf/intel/portage/package.license
+!conf/intel/portage/package.mask
+!conf/intel/portage/package.unmask
+!conf/intel/portage/package.use
+!conf/intel/portage/repos.conf
