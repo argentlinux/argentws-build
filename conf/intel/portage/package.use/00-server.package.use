@@ -139,3 +139,6 @@ dev-lang/php truetype gd apache2
 
 # mediawiki with vhosts
 www-apps/mediawiki vhosts
+
+# nextcloud USE flags
+www-apps/nextcloud vhosts
