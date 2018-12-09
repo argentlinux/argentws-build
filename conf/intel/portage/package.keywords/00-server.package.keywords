@@ -7,3 +7,6 @@
 
 # Nextcloud 14.x
 =www-apps/nextcloud-14.0.4 ~amd64
+
+# unmask JSON-PP
+=perl-core/JSON-PP-2.273.0 **
