@@ -5,6 +5,8 @@ app-editors/liteide gdb
 >=dev-java/swing-layout-1.0.4 source
 >=dev-java/junit-4.12-r1 source
 >=dev-java/oracle-jdk-bin-1.8.0.112 javafx
+
+# xmlsec specific
 dev-libs/xmlsec nss
 
 # PHP specific flags
