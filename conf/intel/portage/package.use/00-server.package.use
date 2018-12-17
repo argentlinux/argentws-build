@@ -1,3 +1,6 @@
 # enable PHP 7.x with pdo and fpm
 >=dev-lang/php-7.2.10 pdo fpm xmlreader
 >=app-eselect/eselect-php-0.9.4-r5 fpm
+
+# texlive with all the needed
+app-text/texlive graphics humanities png publishers science truetype xml
