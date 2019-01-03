@@ -1,0 +1,5 @@
+# ffmpeg
+=media-video/ffmpeg-4.1 ~amd64
+
+# codecs
+=media-libs/nv-codec-headers-8.1.24.2 ~amd64
