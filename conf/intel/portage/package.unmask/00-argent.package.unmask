@@ -11,6 +11,7 @@ www-plugins/google-talkplugin::gentoo
 # unmask icu and thunderbird
 =dev-libs/icu-60.2
 =mail-client/thunderbird-60.3.0
+=mail-client/thunderbird-60.4.0
 
 # ICU unmasked, old version
 =dev-libs/icu-58.2-r1
