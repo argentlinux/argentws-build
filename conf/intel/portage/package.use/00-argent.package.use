@@ -109,3 +109,7 @@ x11-terms/terminator -gnome
 
 # polkit without GTK
 sys-auth/polkit -gtk
+
+# avahi & dbus
+>=net-dns/avahi-0.7-r1 mdnsresponder-compat
+>=sys-apps/dbus-1.10.24 user-session
