@@ -142,3 +142,6 @@ www-apps/mediawiki vhosts
 
 # nextcloud USE flags
 www-apps/nextcloud vhosts
+
+# mysql specific USE flags
+>=dev-db/mysql-connector-c-6.1.11-r1 abi_x86_32
