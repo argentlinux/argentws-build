@@ -21,7 +21,7 @@ net-misc/cmst
 net-misc/connman
 net-p2p/qbittorrent
 sys-block/gparted
-www-client/qupzilla
+www-client/falkon
 x11-misc/compton
 x11-misc/lightdm
 x11-misc/qps
