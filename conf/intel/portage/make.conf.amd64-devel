@@ -71,7 +71,8 @@ DISTDIR="/usr/portage/distfiles"
 CONFIG_PROTECT="/etc/localtime /etc/default/grub /etc/grub.d/10_linux"
 
 INSTALL_MASK="/etc/init.d
-	      /etc/runlevels"
+	      /etc/runlevels
+	      /lib/systemd/system/ldconfig.service"
 
 source /var/lib/layman/make.conf
 source /etc/portage/binhost.conf
