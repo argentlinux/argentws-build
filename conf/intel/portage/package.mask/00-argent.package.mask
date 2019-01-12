@@ -61,3 +61,6 @@ dev-util/lxqt-build-tools
 # masking painful RUBY 2.4
 =dev-ruby/did_you_mean-1.1.2
 >=dev-lang/ruby-2.4.0
+
+# banning python 3.6
+dev-lang/python:3.6::gentoo
