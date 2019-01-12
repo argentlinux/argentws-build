@@ -12,6 +12,5 @@ net-irc/konversation
 net-misc/cmst
 net-misc/connman
 net-p2p/qbittorrent
-sys-block/partitionmanager
 =sys-libs/kpmcore-3.2.1
 www-client/falkon
