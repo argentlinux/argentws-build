@@ -1,6 +1,5 @@
 app-admin/avasile
 app-editors/nano
-app-editors/vim
 app-portage/epkg
 app-portage/genlop
 app-portage/gentoolkit
