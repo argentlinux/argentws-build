@@ -9,7 +9,6 @@ sys-apps/baselayout::gentoo
 sys-apps/openrc::gentoo
 sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
-dev-db/mariadb
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
 sys-kernel/genkernel::gentoo
