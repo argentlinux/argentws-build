@@ -79,10 +79,10 @@ sys-devel/llvm clang
 sys-fs/cryptsetup -gcrypt
 sys-fs/dmraid intel_led led mini
 sys-fs/dosfstools compat
-sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/genkernel cryptsetup crypt mdadm dmraid iscsi
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid iscsi
 sys-kernel/argent-sources symlink
-sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip static-libs
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi

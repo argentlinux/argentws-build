@@ -77,10 +77,10 @@ sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs
 sys-devel/llvm clang
 sys-fs/cryptsetup -gcrypt
 sys-fs/dosfstools compat
-sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/genkernel cryptsetup crypt mdadm dmraid iscsi
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid iscsi
 sys-kernel/argent-sources symlink
-sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip static-libs
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3

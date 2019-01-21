@@ -47,7 +47,7 @@ GRUB_PLATFORMS="efi-64 pc"
 LLVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64 ARM"
 
 ## DRACUT MODULES ##
-DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
+DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs  ssh-client syslog systemd"
 
 ## ABI SUPPORT ##
 ABI_X86="64"
