@@ -14,3 +14,6 @@ net-misc/connman
 net-p2p/qbittorrent
 =sys-libs/kpmcore-3.2.1
 www-client/falkon
+sys-fs/btrfs-progs
+sys-fs/dosfstools
+sys-fs/xfsprogs
