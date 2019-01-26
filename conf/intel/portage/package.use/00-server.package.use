@@ -25,7 +25,6 @@ dev-qt/qtwebkit geolocation multimedia orientation printsupport webchannel -gstr
 dev-util/cmake -qt5
 dev-util/geany -gtk3
 dev-util/glade:3 -gnome
-dev-java/oracle-jdk-bin alsa -javafx
 games-fps/urbanterror smp sdl
 games-fps/xonotic sdl
 games-strategy/0ad sound
@@ -113,8 +112,7 @@ app-editors/liteide gdb
 =dev-db/sqlitebrowser-3.8.0 -qt4
 >=dev-java/swing-layout-1.0.4 source
 >=dev-java/junit-4.12-r1 source
->=dev-java/oracle-jdk-bin-1.8.0.152-r1:1.8 -javafx
-dev-java/oracle-jdk-bin -javafx
+dev-java/oracle-jdk-bin -javafx headless-awt
 dev-libs/xmlsec nss
 net-analyzer/nmap zenmap
 net-dns/bind dlz geoip json ldap mysql urandom -threads
