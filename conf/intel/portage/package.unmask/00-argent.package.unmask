@@ -16,3 +16,6 @@ www-plugins/google-talkplugin::gentoo
 # ICU unmasked, old version
 =dev-libs/icu-58.2-r1
 =dev-libs/icu-63.1-r1
+
+# RUBY
+=dev-lang/ruby-2.6.2

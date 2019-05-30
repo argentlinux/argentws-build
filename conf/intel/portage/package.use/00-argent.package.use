@@ -114,3 +114,6 @@ sys-auth/polkit -gtk
 >=net-dns/avahi-0.7-r1 mdnsresponder-compat
 >=sys-apps/dbus-1.10.24 user-session
 net-wireless/bluez user-session
+
+# PLASMA
+kde-plasma/plasma-desktop touchpad

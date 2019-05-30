@@ -1,3 +1,4 @@
+# Old Tools USE flags
 >=app-admin/calamares-3.1.9 python_targets_python3_5
 app-editors/liteide gdb
 =dev-db/sqlitebrowser-3.8.0 -qt4
@@ -47,3 +48,14 @@ app-text/asciidoc PYTHON_SINGLE_TARGET: python2_7
 # GCC 7.x hardened
 >=sys-devel/gcc-7.3.0 hardened
 >=sys-devel/base-gcc-7.3.0 hardened
+
+# RUBY specific
+=dev-ruby/hiera-3.4.3 ruby_targets_ruby25
+dev-ruby/rexical ruby_targets_ruby25
+dev-ruby/rgen ruby_targets_ruby25
+virtual/ruby-ssl ruby_targets_ruby25
+dev-ruby/sqlite3 ruby_targets_ruby25
+dev-ruby/pkg-config ruby_targets_ruby25
+=app-admin/puppet-6.4.1 ruby_targets_ruby25
+=dev-ruby/test-unit-3.2.7 ruby_targets_ruby25
+=dev-ruby/bundler-1.16.1 ruby_targets_ruby25
