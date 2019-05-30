@@ -19,3 +19,6 @@ www-plugins/google-talkplugin::gentoo
 
 # RUBY
 =dev-lang/ruby-2.6.2
+
+# LXQT
+=dev-util/lxqt-build-tools-0.6.0
