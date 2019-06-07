@@ -116,4 +116,3 @@ sys-auth/polkit -gtk
 net-wireless/bluez user-session
 
 # PLASMA
-kde-plasma/plasma-desktop touchpad
