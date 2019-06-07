@@ -46,7 +46,7 @@ PYTHON_TARGETS="python2_7 python3_4 python3_5"
 PYTHON_SINGLE_TARGET="python3_5"
 
 ## RUBY TARGETS ##
-RUBY_TARGETS="ruby22 ruby23 ruby25 ruby26"
+RUBY_TARGETS="ruby22 ruby23 ruby26"
 
 ## GRUB PLATFORMS ##
 GRUB_PLATFORMS="efi-64 pc"
