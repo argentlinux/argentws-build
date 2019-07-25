@@ -76,21 +76,32 @@ net-wireless/wpa_supplicant -qt5
 sys-apps/smartmontools minimal
 sys-apps/systemd sysv-utils cryptsetup
 sys-apps/v86d x86emu
-sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
+sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs
+
+#GRUB & Device Mapper supports
 sys-boot/grub device-mapper mount -static truetype multislot
-sys-devel/llvm clang
+sys-libs/libblockdev device-mapper
 sys-fs/cryptsetup -gcrypt
 sys-fs/dmraid intel_led led mini
 sys-fs/dosfstools compat
+sys-libs/libseccomp static-libs
+sys-libs/zlib minizip static-libs
+
+# LLVM / CLANG
+sys-devel/llvm clang
+
+# GENKERNEL / Kernels
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/argent-sources symlink
 sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
-sys-libs/libseccomp static-libs
-sys-libs/zlib minizip static-libs
+
+# WWW
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
 www-client/chromium widevine
 www-plugins/freshplayerplugin -gtk3
+
+# XORG + X11
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm -gtk3
 x11-drivers/xf86-video-intel uxa
@@ -116,3 +127,4 @@ sys-auth/polkit -gtk
 net-wireless/bluez user-session
 
 # PLASMA
+>kde-plasma/plasma-desktop-5.14.5.1 touchpad
