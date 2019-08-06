@@ -67,6 +67,7 @@ LLVM_TARGETS="AMDGPU BPF NVPTX X86 AArch64 ARM"
 PORTDIR="/usr/portage"
 PKGDIR="/usr/portage/packages"
 DISTDIR="/usr/portage/distfiles"
+PORTAGE_GROUP="portage"
 
 CONFIG_PROTECT="/etc/localtime /etc/default/grub /etc/grub.d/10_linux"
 
