@@ -57,7 +57,7 @@ ABI_X86="64"
 #   euse - bug #474574
 #   euses and ufed - bug #478318
 PORTDIR="/usr/portage"
-DISTDIR="${PORTDIR}/distfiles"
+DISTDIR="/usr/portage/distfiles"
 PKGDIR="/usr/portage/packages"
 
 CONFIG_PROTECT="/etc/localtime /etc/default/grub /etc/grub.d/10_linux"
