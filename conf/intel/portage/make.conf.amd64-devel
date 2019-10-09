@@ -59,7 +59,6 @@ ABI_X86="64"
 PORTDIR="/usr/portage"
 DISTDIR="/usr/portage/distfiles"
 PKGDIR="/usr/portage/packages"
-PORTAGE_GROUP="portage"
 
 CONFIG_PROTECT="/etc/localtime /etc/default/grub /etc/grub.d/10_linux"
 
