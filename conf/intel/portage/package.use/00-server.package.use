@@ -141,3 +141,6 @@ www-apps/nextcloud vhosts
 
 # mysql specific USE flags
 >=dev-db/mysql-connector-c-6.1.11-r1 abi_x86_32
+
+# Avasile 2.5-rX server useflag
+>=app-admin/avasile-2.5 server
