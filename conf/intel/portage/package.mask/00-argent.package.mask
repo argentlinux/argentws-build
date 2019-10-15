@@ -58,9 +58,12 @@ x11-themes/numix-icon-theme-circle::gentoo
 # mask gentoo's lxqt-build-tools
 dev-util/lxqt-build-tools
 
-# masking painful RUBY 2.4
-=dev-ruby/did_you_mean-1.1.2
->=dev-lang/ruby-2.4.0
-
-# banning python 3.6
+# masked versions of python
 dev-lang/python:3.6::gentoo
+
+# masked versions of libwebp
+<media-libs/libwebp-1.0.2
+
+# masked versions of libwebp
+=sys-apps/util-linux-2.34_rc1
+=sys-apps/util-linux-9999
