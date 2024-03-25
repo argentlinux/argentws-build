@@ -29,7 +29,6 @@ games-fps/xonotic sdl
 games-strategy/0ad sound
 gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 gnome-extra/synapse -zeitgeist
-kde-frameworks/kio -kwallet
 lxqt-base/lxqt-meta branding
 lxqt-base/lxqt-panel colorpicker cpuload networkmonitor sensors statusnotifier sysstat worldclock
 mail-client/claws-mail -webkit -libindicate
@@ -66,13 +65,13 @@ net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg540
 net-print/hplip fax scanner snmp
 net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
-net-irc/quassel phonon -server -crypt
+net-irc/quassel phonon server crypt
 net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc
-net-misc/networkmanager connection-sharing modemmanager
+net-misc/networkmanager connection-sharing modemmanager nftables
 net-misc/teamviewer -system-wine
 net-misc/tigervnc server
 net-misc/youtube-dl offensive
-net-wireless/wpa_supplicant -qt5
+net-wireless/wpa_supplicant qt5
 sys-apps/smartmontools minimal
 sys-apps/systemd sysv-utils cryptsetup
 sys-apps/v86d x86emu
