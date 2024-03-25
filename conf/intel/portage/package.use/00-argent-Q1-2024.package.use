@@ -1,0 +1,77 @@
+# app-
+app-text/poppler nss
+app-containers/docker btrfs device-mapper overlay
+app-containers/containerd btrfs device-mapper
+
+# kernel
+sys-kernel/argent-sources symlink -plymouth
+sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs -plymouth
+
+# lvm
+>=sys-fs/lvm2-2.03.21 lvm thin
+
+# grub
+sys-boot/grub device-mapper mount -static truetype multislot
+
+# genkernel
+sys-kernel/genkernel-next dmraid mdadm -plymouth
+
+# no-X programs
+app-editors/vim -X
+
+# media
+media-libs/libsdl2 gles2
+media-libs/libcanberra alsa
+media-libs/libsdl2 haptic
+media-sound/pulseaudio daemon
+>=media-video/ffmpeg-4.4.2 openssl
+media-video/vlc aribsub kate libass libtiger zvbi matroska fontconfig ffmpeg cdda cddb faad gnutls libcaca lua modplug musepack schroedinger skins archive truetype twolame upnp xml vlm X
+
+# QT
+dev-qt/qtcore icu
+>=dev-qt/qtbase-6.5.3 opengl
+>=dev-qt/qtgui-5.15.11-r2 accessibility
+>=dev-qt/qtprintsupport-5.15.2 cups
+>=dev-qt/qttools-6.5.3 opengl
+
+# kde-
+kde-plasma/kwin lock
+
+# CUPS
+>=app-text/ghostscript-gpl-9.53.3-r5 cups
+
+# ddcutil
+app-misc/ddcutil drm nvidia
+
+# polkit
+sys-auth/polkit kde
+
+# powerdevil
+kde-plasma/powerdevil brightness-control
+
+# pinentry
+>=app-crypt/pinentry-1.1.0-r4 gnome-keyring
+
+# JDK
+virtual/jdk::gentoo
+
+# libdrm
+x11-libs/libdrm libkms
+
+# zulu jdk
+dev-java/zulu-jdk-bin gentoo-vm
+
+# squashfs
+sys-fs/squashfs-tools lz4 lzma lzo
+
+# net-*
+net-firewall/iptables conntrack netlink nftables
+>=net-firewall/nftables-0.9.8 json python xtables
+net-analyzer/nmap libssh2 nping
+net-irc/quassel kde phonon gui spell
+>=net-wireless/wpa_supplicant-2.9-r2 dbus
+net-misc/connman iptables -nftables
+
+# sys-*
+sys-apps/util-linux tty-helpers
+sys-apps/systemd -hwdb
