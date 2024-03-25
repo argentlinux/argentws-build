@@ -41,12 +41,9 @@ QEMU_SOFTMMU_TARGETS="x86_64 i386"
 GENTOO_MIRRORS="http://mirror.bytemark.co.uk/gentoo/"
 
 ## PYTHON TARGETS ##
-USE_PYTHON="2.7 3.5"
-PYTHON_TARGETS="python2_7 python3_5"
-PYTHON_SINGLE_TARGET="python3_5"
-
-## RUBY TARGETS ##
-RUBY_TARGETS="ruby23 ruby24 ruby25"
+USE_PYTHON="3.10 3.11"
+PYTHON_TARGETS="python3_10 python3_11"
+PYTHON_SINGLE_TARGET="python_3.10"
 
 ## GRUB PLATFORMS ##
 GRUB_PLATFORMS="efi-64 pc"
