@@ -3,7 +3,7 @@
 # Please consult /usr/share/portage/config/make.conf.example for a more
 # detailed example.
 CHOST="x86_64-pc-linux-gnu"
-CFLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
+COMMON_FLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
 
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j8 -s"
