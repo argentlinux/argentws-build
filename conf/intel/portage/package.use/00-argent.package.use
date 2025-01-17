@@ -1,7 +1,10 @@
+# tools & zip
+>=app-crypt/qca-2.3.9 qt6
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
+app-arch/7zip rar
 app-emulation/aqemu vnc
 app-emulation/docker overlay pkcs11
 app-emulation/libvirt numa virt-network
@@ -9,10 +12,19 @@ app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 app-text/xmlto text
-dev-db/sqlite secure-delete
+dev-db/sqlite -secure-delete
 dev-lang/fpc source
+
+
+# dev-lang
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.7.1-r1 webchannel
+
+# dev-libs
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtmultimedia:5 widgets
@@ -21,7 +33,8 @@ dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebchannel:5 qml
 dev-qt/qtwebengine:5 widgets system-icu
 dev-qt/qtwebkit geolocation multimedia orientation printsupport webchannel -gstreamer
-dev-util/cmake server -qt5
+# move dev-util/cmake dev-build/cmake
+dev-build/cmake server -qt5
 dev-util/geany -gtk3
 dev-util/glade:3 -gnome
 games-fps/urbanterror smp sdl
@@ -52,12 +65,18 @@ media-libs/libsdl2 gles
 media-libs/mesa d3d9 gles1 gles2 xa wayland
 >=media-libs/libvpx-1.5.0 svc
 media-sound/audacious -gtk3 -qt5
+
+# media
 media-plugins/audacious-plugins -gtk3 -qt5
+>=media-plugins/alsa-plugins-1.2.7.1-r1 speex
 media-sound/qmmp qsui
 media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
+nedia-video/pipewire extra
+
+# net-stuff
 net-dns/dnsmasq script
 net-firewall/firewalld gui
 net-print/cnijfilter net servicetools
@@ -71,11 +90,15 @@ net-misc/networkmanager connection-sharing modemmanager nftables
 net-misc/teamviewer -system-wine
 net-misc/tigervnc server
 net-misc/youtube-dl offensive
+net-p2p/qbittorrent webui
 net-wireless/wpa_supplicant qt5
 sys-apps/smartmontools minimal
 sys-apps/systemd sysv-utils cryptsetup
 sys-apps/v86d x86emu
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs
+
+#Base language
+>=sys-libs/ncurses-6.4_p20240414 -gpm
 
 #GRUB & Device Mapper supports
 sys-boot/grub device-mapper mount -static truetype multislot
@@ -87,13 +110,16 @@ sys-libs/libseccomp static-libs
 sys-libs/zlib minizip static-libs
 
 # LLVM / CLANG
-sys-devel/llvm clang
+# move sys-devel/llvm llvm-core/llvm
+llvm-core/llvm clang
 
 # GENKERNEL / Kernels
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/argent-sources symlink
 sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+>=sys-kernel/installkernel-48-r1 dracut
+sys-kernel/gentoo-sources -symlink
 
 # WWW
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
@@ -102,6 +128,7 @@ www-plugins/freshplayerplugin -gtk3
 
 # XORG + X11
 x11-base/xorg-server xvfb
+>=x11-base/xwayland-23.2.6 libei
 x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm -gtk3
 x11-drivers/xf86-video-intel uxa
 x11-drivers/xf86-video-qxl xspice
@@ -118,7 +145,9 @@ x11-themes/numix-gtk-theme-dark metacity
 x11-terms/terminator -gnome
 
 # polkit without GTK
-sys-auth/polkit -gtk
+>=sys-auth/polkit-qt-0.200.0 qt6
+>=sys-auth/polkit-125-r1 gtk qt6
+
 
 # avahi & dbus
 >=net-dns/avahi-0.7-r1 mdnsresponder-compat
@@ -127,3 +156,13 @@ net-wireless/bluez user-session
 
 # PLASMA
 >kde-plasma/plasma-desktop-5.14.5.1 touchpad
+dev-qt/qtquickcontrols2 widgets
+dev-java/openjdk headless-awt -alsa -cups
+<=dev-java/openjdk-bin-17.0.12 headless-awt -alsa -cups
+>=dev-java/openjdk-bin-17.0.12_p7 -headless-awt
+kde-plasma/discover snap webengine flatpak
+kde-plasma/plasma-meta colord discover oxygen-theme plymouth thunderbolt webengine
+
+
+# net-libs
+net-libs/libproxy -introspection
