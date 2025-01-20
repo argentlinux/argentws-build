@@ -1,69 +1,10 @@
-### THIS FILE IS SYNCED USING GIT ###
-### USE 01-custom.* FOR USER CHANGES ###
-
-app-admin/calamares::gentoo
-dev-libs/libdbusmenu-qt::gentoo
-lxqt-base/lxqt-meta::gentoo
-mail-client/thunderbird::gentoo
-mate-base/mate::gentoo
-sys-apps/baselayout::gentoo
-sys-apps/gentoo-systemd-integration::gentoo
-sys-apps/openrc::gentoo
-sys-auth/polkit-qt::gentoo
-sys-devel/gcc-config::gentoo
->sys-devel/gcc-6::gentoo
-sys-boot/grub::gentoo
-sys-boot/plymouth::gentoo
-sys-kernel/dracut::gentoo
+# from gentoo
+sys-boot/os-prober::gentoo
+app-portage/epkg::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
-virtual/linux-sources::gentoo
-x11-base/xorg-drivers::gentoo
-x11-misc/qps::gentoo
-x11-misc/bumblebee::gentoo
->www-client/qupzilla-2.2.5
 
-# virtualbox masked against gentoo
-app-emulation/virtualbox-bin::gentoo
-app-emulation/virtualbox-guest-additions::gentoo
-app-emulation/virtualbox-modules::gentoo
-sys-kernel/virtualbox-modules-dkms::gentoo
-x11-drivers/xf86-video-virtualbox::gentoo
-
-# blacklisting nvidia-drivers against gentoo ones
-x11-drivers/nvidia-drivers::gentoo
-sys-kernel/nvidia-drivers-dkms::gentoo
-
-# blocking another autoconf
-# this is getting frustrating
-=sys-devel/autoconf-2.69:2.5
-
-# blocking icedtea-bin versions bigger than 3.6.0
-# we're not ready yet for those
->=dev-java/icedtea-bin-3.7.0
-
-# masking kbuild latest, for now
-=dev-util/kbuild-0.1.9998.3127
-
-# mask numix series against gentoo
-x11-themes/numix-icon-theme::gentoo
-x11-themes/numix-icon-theme-circle::gentoo
-
-# mask protobuf-python because we don`t know what we're doing for now
->=dev-python/protobuf-python-3.6.1
-
-# everything above kbuild-0.1.9998_pre20131130-r1 should be masked
->dev-util/kbuild-0.1.9998_pre20131130-r1
-
-# mask gentoo's lxqt-build-tools
-dev-util/lxqt-build-tools
-
-# masked versions of python
-dev-lang/python:3.6::gentoo
-
-# masked versions of libwebp
-<media-libs/libwebp-1.0.2
-
-# masked versions of libwebp
-=sys-apps/util-linux-2.34_rc1
-=sys-apps/util-linux-9999
+# old packages
+<=dev-qt/qtwayland-5.15.3:5
+sys-apps/hwids[udev]
+<dev-python/setuptools-67

@@ -74,11 +74,13 @@ media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
-nedia-video/pipewire extra
+media-video/pipewire extra
+
 
 # net-stuff
 net-dns/dnsmasq script
 net-firewall/firewalld gui
+net-print/cups -zeroconf
 net-print/cnijfilter net servicetools
 net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
 net-print/hplip fax scanner snmp
@@ -116,8 +118,8 @@ llvm-core/llvm clang
 # GENKERNEL / Kernels
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/argent-sources symlink
-sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/argent-sources symlink grub2
+sys-kernel/linux-argent btrfs build dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 >=sys-kernel/installkernel-48-r1 dracut
 sys-kernel/gentoo-sources -symlink
 
@@ -162,6 +164,7 @@ dev-java/openjdk headless-awt -alsa -cups
 >=dev-java/openjdk-bin-17.0.12_p7 -headless-awt
 kde-plasma/discover snap webengine flatpak
 kde-plasma/plasma-meta colord discover oxygen-theme plymouth thunderbolt webengine
+>=kde-frameworks/kio-6.7.0-r1 handbook
 
 
 # net-libs
