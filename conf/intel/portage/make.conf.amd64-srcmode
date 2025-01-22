@@ -23,6 +23,7 @@ PKGDIR="/var/cache/binpkgs"
 PORTAGE_DIR="/var/db/repos/gentoo"
 PORTDIR="/var/db/repos/gentoo"
 DISTDIR="/var/cache/distfiles"
+GENTOO_DISTRO="argent"
 
 # This sets the language of build output to English.
 # Please keep this setting intact when reporting bugs.

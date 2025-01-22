@@ -1,3 +1,6 @@
+# ARGENT specific
+app-misc/argent-config-files microcode plymouth vbox
+
 # tools & zip
 >=app-crypt/qca-2.3.9 qt6
 app-admin/sudo -sendmail
@@ -123,9 +126,10 @@ sys-kernel/linux-argent btrfs build dmraid dracut symlink grub iscsi mdadm luks 
 >=sys-kernel/installkernel-48-r1 dracut
 sys-kernel/gentoo-sources -symlink
 
-# WWW
+# WWW stuff & browsers
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
 www-client/chromium widevine
+www-client/vivaldi proprietary-codecs
 www-plugins/freshplayerplugin -gtk3
 
 # XORG + X11
@@ -169,3 +173,4 @@ kde-plasma/plasma-meta colord discover oxygen-theme plymouth thunderbolt webengi
 
 # net-libs
 net-libs/libproxy -introspection
+net-libs/nodejs npm
