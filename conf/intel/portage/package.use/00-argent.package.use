@@ -74,7 +74,7 @@ media-plugins/audacious-plugins -gtk3 -qt5
 >=media-plugins/alsa-plugins-1.2.7.1-r1 speex
 media-sound/qmmp qsui
 media-video/bomi cdda youtube-dl
-media-video/ffmpeg fdk
+media-video/ffmpeg fdk -openal -sdl
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
 media-video/pipewire extra
