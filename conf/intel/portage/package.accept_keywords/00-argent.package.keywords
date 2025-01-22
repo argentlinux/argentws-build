@@ -1,0 +1,24 @@
+# ddcutil
+=app-misc/ddcutil-0.9.9 ~amd64
+
+# linux-headers
+=sys-kernel/linux-hears-5.11  ~amd64
+
+# chatting
+>=net-im/signal-desktop-bin-5.0.0 ~amd64
+net-im/skypeforlinux ~amd64
+>=net-im/mattermost-desktop-bin-5.9 ~amd64
+
+# libpthread-stubs
+=dev-libs/libpthread-stubs-0.5 **
+
+# gaming
+>=games-util/game-device-udev-rules-20240523::gentoo ~amd64
+>=sys-libs/libudev-compat-186-r1::gentoo ~amd64
+>=app-emulation/steam-1.0.0.79::argent-ws ~amd64
+>=dev-util/scanmem-0.17::gentoo ~amd64
+
+# DEVELOPMENT & TOOLS
+>=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
+>=dev-util/goland-2024.3.0::argent-ws ~amd64
+>=media-video/obs-studio-30 ~amd64

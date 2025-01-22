@@ -5,3 +5,4 @@
 !binhost-main.conf
 !binrepos.conf
 !bashrc-devel
+!package.accept_keywords
