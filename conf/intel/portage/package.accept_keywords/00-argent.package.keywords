@@ -17,6 +17,7 @@ net-im/skypeforlinux ~amd64
 >=sys-libs/libudev-compat-186-r1::gentoo ~amd64
 >=app-emulation/steam-1.0.0.79::argent-ws ~amd64
 >=dev-util/scanmem-0.17::gentoo ~amd64
+>=x11-drivers/nvidia-drivers-550::argent-ws ~amd64
 
 # DEVELOPMENT & TOOLS
 >=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
