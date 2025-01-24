@@ -45,9 +45,11 @@ DONT_USE="-bindist -qt4 -connman -networkmanager -modemmanager -libav -tracker -
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
-## VIDEO & DRACUT ##
+## VIDEO ##
 VIDEO_CARDS="amdgpu intel i915 i965 d3d12 nouveau nvidia r100 r200 r300 r600 radeonsi radeon vesa vmware zink"
 LIRC_DEVICES="audio audio_alsa serial pctv"
+
+## DRACUT MODULES ##
 DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
 
 ## PYTHON ##
