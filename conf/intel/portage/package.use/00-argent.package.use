@@ -1,4 +1,4 @@
-# ARGENT specific
+## ARGENT ##
 app-misc/argent-config-files microcode plymouth vbox
 
 # tools & zip
@@ -19,15 +19,18 @@ dev-db/sqlite -secure-delete
 dev-lang/fpc source
 
 
-# dev-lang
+# DEVELOPMENT
 # move dev-python/PyQt6 dev-python/pyqt6
 >=dev-python/pyqt6-6.7.1-r1 webchannel
+>=dev-libs/boost-1.85.0-r1 python
+>=dev-libs/libpwquality-1.4.5-r2 python
 
 # dev-libs
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
 >=dev-libs/libdbusmenu-16.04.0-r2 gtk3
 
+# ENGINES & GAMING
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtmultimedia:5 widgets
@@ -45,18 +48,23 @@ games-fps/xonotic sdl
 games-strategy/0ad sound
 gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 gnome-extra/synapse -zeitgeist
+#kde-plasma/kwin screencast
 lxqt-base/lxqt-meta branding
 lxqt-base/lxqt-panel colorpicker cpuload networkmonitor sensors statusnotifier sysstat worldclock
 mail-client/claws-mail -webkit -libindicate
+>=dev-python/pyside6-6.8.1 uitools
+#net-im/discord plasma pipewire
 
 # thudnerbir flags
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi bindist
 
+# IMAGE & MEDIA
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
 media-gfx/sane-backends usb snmp
 media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
 media-gfx/xsane gimp lcms ocr
+media-gfx/gimp jpeg2k vector-icons
 media-libs/freetype static-libs
 media-libs/libpng static-libs
 media-libs/libmng static-libs
@@ -68,13 +76,11 @@ media-libs/libsdl2 gles
 media-libs/mesa d3d9 gles1 gles2 xa wayland
 >=media-libs/libvpx-1.5.0 svc
 media-sound/audacious -gtk3 -qt5
-
-# media
 media-plugins/audacious-plugins -gtk3 -qt5
 >=media-plugins/alsa-plugins-1.2.7.1-r1 speex
 media-sound/qmmp qsui
 media-video/bomi cdda youtube-dl
-media-video/ffmpeg fdk -openal -sdl
+media-video/ffmpeg fdk opus
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
 media-video/pipewire extra
