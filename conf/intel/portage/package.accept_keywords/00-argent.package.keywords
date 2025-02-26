@@ -17,9 +17,14 @@ net-im/skypeforlinux ~amd64
 >=sys-libs/libudev-compat-186-r1::gentoo ~amd64
 >=app-emulation/steam-1.0.0.79::argent-ws ~amd64
 >=dev-util/scanmem-0.17::gentoo ~amd64
->=x11-drivers/nvidia-drivers-550::argent-ws ~amd64
 
 # DEVELOPMENT & TOOLS
 >=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
 >=dev-util/goland-2024.3.0::argent-ws ~amd64
 >=media-video/obs-studio-30 ~amd64
+dev-util/webstorm:0/2024 ~amd64
+=gui-libs/egl-x11-1.0.0 ~amd64
+
+# GAME DEVELOPMENT #
+>=media-plugins/obs-vkcapture-1.0 ~amd64
+>=dev-games/unityhub-3.9.1::argent-ws
