@@ -2,7 +2,6 @@
 >=app-crypt/qca-2.3.9 qt6
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
-app-admin/calamares branding config
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
 app-arch/7zip rar
@@ -11,11 +10,15 @@ app-emulation/docker overlay pkcs11
 app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
-app-misc/calamares-runtime branding
+
 app-text/xmlto text
 dev-db/sqlite -secure-delete
 dev-lang/fpc source
 
+# ARGENT INSTALLERS
+app-admin/calamares branding config
+app-misc/calamares-runtime branding
+app-misc/calamares-config-argent installer
 
 # DEVELOPMENT
 # move dev-python/PyQt6 dev-python/pyqt6
@@ -134,7 +137,7 @@ llvm-core/llvm clang
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/argent-sources symlink grub2
-sys-kernel/linux-argent btrfs build dmraid dracut grub2 symlink iscsi mdadm luks lvm zfs plymouth
+sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi mdadm luks lvm zfs plymouth
 >=sys-kernel/installkernel-48-r1 dracut
 sys-kernel/gentoo-sources -symlink
 

@@ -10,4 +10,4 @@ sys-apps/hwids[udev]
 <dev-python/setuptools-67
 
 ## DEPRECATION 03.2025 ##
-=app-misc/calamares-config-argent-3.2-r3-1
+=app-misc/calamares-config-argent-3.2-r3-1s
