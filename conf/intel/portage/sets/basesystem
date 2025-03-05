@@ -5,5 +5,4 @@ app-portage/epkg
 dev-vcs/git
 sys-boot/grub
 sys-kernel/dracut
-sys-kernel/argent-sources
 sys-kernel/linux-argent
