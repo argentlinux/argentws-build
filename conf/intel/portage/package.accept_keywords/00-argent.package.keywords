@@ -27,4 +27,11 @@ dev-util/webstorm:0/2024 ~amd64
 
 # GAME DEVELOPMENT #
 >=media-plugins/obs-vkcapture-1.0 ~amd64
->=dev-games/unityhub-3.9.1::argent-ws
+>=dev-games/unityhub-3.9.1::argent-ws ~amd64
+
+# DEVELOPMENT & IDEs
+>=dev-util/clion-2024::argent-ws ~amd64
+>=dev-util/pycharm-community-2024::argent-ws ~amd64
+>=dev-util/pycharm-professional::argent-ws ~amd64
+>=dev-util/goland-2024::argent-ws ~amd64
+>=dev-util/webstorm-2024::argent-ws ~amd64
