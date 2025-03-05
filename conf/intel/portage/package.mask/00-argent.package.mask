@@ -1,10 +1,10 @@
 # from gentoo
-sys-boot/os-prober::gentoo
 app-portage/epkg::gentoo
-sys-kernel/genkernel::gentoo
-sys-kernel/genkernel-next::gentoo
+sys-boot/os-prober::gentoo
+sys-boot/grub::gentoo
 
 # old packages
 <=dev-qt/qtwayland-5.15.3:5
 sys-apps/hwids[udev]
+
 <dev-python/setuptools-67

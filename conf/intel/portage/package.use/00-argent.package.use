@@ -1,7 +1,8 @@
-# tools & zip
+# ARGENT TOOLS
 >=app-crypt/qca-2.3.9 qt6
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
+app-admin/calamares branding config
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
 app-arch/7zip rar
