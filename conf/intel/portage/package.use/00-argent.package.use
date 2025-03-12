@@ -27,6 +27,9 @@ app-misc/calamares-config-argent installer
 >=dev-libs/boost-1.85.0-r1 python
 >=dev-libs/libpwquality-1.4.5-r2 python
 >=sys-fs/squashfs-tools-ng-1 lz4 lzo
+>=sys-libs/libcap-2.71 static-libs
+>=dev-util/xdelta-3.0.11-r1 lzma
+app-text/enchant hunspell
 
 # GAME DEVELOPMENT #
 >=media-libs/vulkan-loader-1.3.296.0 layers
