@@ -11,7 +11,6 @@ app-emulation/docker overlay pkcs11
 app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
-
 app-text/xmlto text
 dev-db/sqlite -secure-delete
 dev-lang/fpc source
@@ -95,7 +94,7 @@ media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk opus openh264 nvenc
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk nvenc
-media-video/pipewire extra
+media-video/pipewire echo-cancel extra gsettings ieee1394 jack-sdk lv2 liblc3 pipewire-alsa roc sound-server
 media-video/kodi blueray vaapi vdpau
 
 
