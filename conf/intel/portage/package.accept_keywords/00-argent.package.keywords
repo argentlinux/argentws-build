@@ -27,7 +27,8 @@ dev-util/webstorm:0/2024 ~amd64
 
 # GAME DEVELOPMENT #
 >=media-plugins/obs-vkcapture-1.0 ~amd64
->=dev-games/unityhub-3.9.1::argent-ws ~amd64
+>=dev-games/unityhub-3.9.1::guru ~amd64
+>=games-util/heroic-bin-2.15.2::gentoo ~amd64
 
 # DEVELOPMENT & IDEs
 >=dev-util/clion-2024::argent-ws ~amd64
