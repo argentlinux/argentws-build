@@ -9,8 +9,6 @@ mail-client/trojita
 media-gfx/gimp
 media-video/vlc
 net-irc/konversation
-net-misc/cmst
-net-misc/connman
 net-p2p/qbittorrent
 www-client/falkon
 sys-fs/btrfs-progs
