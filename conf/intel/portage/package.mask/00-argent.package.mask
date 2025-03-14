@@ -2,12 +2,10 @@
 app-portage/epkg::gentoo
 sys-boot/os-prober::gentoo
 sys-boot/grub::gentoo
+app-admin/calamares::gentoo
 
 # old packages
 <=dev-qt/qtwayland-5.15.3:5
 sys-apps/hwids[udev]
 
 <dev-python/setuptools-67
-
-## DEPRECATION 03.2025 ##
-=app-misc/calamares-config-argent-3.2-r3
