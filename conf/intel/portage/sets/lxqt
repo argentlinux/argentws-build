@@ -16,8 +16,6 @@ media-video/mpv
 media-video/vlc
 net-ftp/filezilla
 net-irc/konversation
-net-misc/cmst
-net-misc/connman
 net-p2p/qbittorrent
 sys-block/gparted
 www-client/falkon
