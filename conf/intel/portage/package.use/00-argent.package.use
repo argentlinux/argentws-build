@@ -102,7 +102,6 @@ media-video/kodi blueray vaapi vdpau
 # net-stuff
 net-dns/dnsmasq script
 net-firewall/firewalld gui
-net-print/cups -zeroconf
 net-print/cnijfilter net servicetools
 net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
 net-print/hplip fax scanner snmp
