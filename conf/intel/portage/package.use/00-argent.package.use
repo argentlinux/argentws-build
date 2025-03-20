@@ -7,7 +7,7 @@ app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
 app-arch/7zip rar
 app-emulation/aqemu vnc
-app-emulation/docker overlay pkcs11
+app-containers/docker overlay pkcs11 btrfs device-mapper overlay
 app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
