@@ -30,7 +30,6 @@ app-misc/calamares-config-argent installer
 >=dev-util/xdelta-3.0.11-r1 lzma
 app-text/enchant hunspell
 dev-python/pyside webengine quick
-dev-libs/libdnet -python
 
 # GAME DEVELOPMENT #
 >=media-libs/vulkan-loader-1.3.296.0 layers
@@ -94,7 +93,7 @@ media-plugins/audacious-plugins -gtk3 -qt5
 >=media-plugins/alsa-plugins-1.2.7.1-r1 speex
 media-sound/qmmp qsui
 media-video/bomi cdda youtube-dl
-media-video/ffmpeg fdk opus openh264 nvenc
+media-video/ffmpeg fdk lame opus openh264 nvenc
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk nvenc
 media-video/pipewire echo-cancel extra gsettings ieee1394 jack-sdk lv2 liblc3 pipewire-alsa roc sound-server
