@@ -1,3 +1,6 @@
+# ARGENT
+app-admin/calamares ~amd64
+
 # ddcutil
 =app-misc/ddcutil-0.9.9 ~amd64
 
