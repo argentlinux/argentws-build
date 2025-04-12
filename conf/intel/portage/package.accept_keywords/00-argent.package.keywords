@@ -26,6 +26,7 @@ net-im/skypeforlinux ~amd64
 =gui-libs/egl-x11-1.0.0 ~amd64
 app-emulation/vmware-modules::argent-ws ~amd64
 app-emulation/vmware-workstation::argent-ws ~amd64
+net-im/teams-for-linux::guru ~amd64
 
 # GAME DEVELOPMENT
 >=media-plugins/obs-vkcapture-1.0 ~amd64
