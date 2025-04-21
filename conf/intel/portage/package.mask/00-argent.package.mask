@@ -2,7 +2,6 @@
 app-portage/epkg::gentoo
 sys-boot/os-prober::gentoo
 sys-boot/grub::gentoo
-app-admin/calamares::gentoo
 
 # old packages
 <=dev-qt/qtwayland-5.15.3:5
