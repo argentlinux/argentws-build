@@ -116,7 +116,7 @@ net-irc/quassel phonon server crypt
 net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc
 net-misc/networkmanager connection-sharing modemmanager nftables
 net-misc/teamviewer -system-wine
-net-misc/remmina gvnc rdp ssh vnc webkit
+net-misc/remmina gvnc rdp ssh vnc
 net-misc/tigervnc server
 net-misc/youtube-dl offensive
 net-p2p/qbittorrent webui
@@ -194,6 +194,7 @@ dev-java/openjdk headless-awt -alsa -cups
 <=dev-java/openjdk-bin-17.0.12 headless-awt -alsa -cups
 >=dev-java/openjdk-bin-17.0.12_p7 -headless-awt
 kde-plasma/discover snap webengine flatpak
+kde-plasma/plasma-workspace networkmanager
 kde-plasma/plasma-meta colord discover oxygen-theme plymouth thunderbolt webengine
 >=kde-frameworks/kio-6.7.0-r1 handbook
 kde-apps/ksystemlog kdesu
