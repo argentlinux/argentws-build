@@ -89,6 +89,7 @@ media-libs/libsdl sound
 media-libs/libvpx postproc
 media-libs/libsdl2 gles
 media-libs/mesa d3d9 gles1 gles2 xa wayland
+media-libs/opencv qt6
 >=media-libs/libvpx-1.5.0 svc
 media-sound/audacious -gtk3 -qt5
 media-plugins/audacious-plugins -gtk3 -qt5
