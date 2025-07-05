@@ -42,3 +42,4 @@ media-libs/vkroots ~amd64
 games-util/ProtonUp-Qt::guru ~amd64
 gui-wm/gamescope ~amd64
 games-emulation/RetroArch ~amd64
+net-misc/megatools ~amd64
