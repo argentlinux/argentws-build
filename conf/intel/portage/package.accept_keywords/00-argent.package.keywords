@@ -1,8 +1,11 @@
 # ARGENT
 app-admin/calamares ~amd64
 
-# ddcutil
+# CPU & GPU
 =app-misc/ddcutil-0.9.9 ~amd64
+app-benchmarks/occt-bin ~amd64
+dev-util/nvidia-cuda-toolkit ~amd64
+
 
 # linux-headers
 =sys-kernel/linux-hears-5.11  ~amd64
