@@ -44,7 +44,7 @@ dev-python/pyside webview
 # ENGINES & GAMING
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
 dev-qt/qtgui:5 gtkstyle
-dev-qt/qtmultimedia:5 widgets
+dev-qt/qtmultimedia:5 widgets 
 dev-qt/qtpositioning:5 geoclue
 dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebchannel:5 qml
@@ -81,6 +81,7 @@ media-gfx/xsane gimp lcms ocr
 media-gfx/gimp jpeg2k vector-icons
 media-libs/freetype static-libs
 >=media-libs/freetype-2.13.3 harfbuzz
+media-libs/libffado -qt5
 media-libs/libpng static-libs
 media-libs/libmng static-libs
 media-libs/libjpeg static-libs
