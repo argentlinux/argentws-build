@@ -46,3 +46,6 @@ games-util/ProtonUp-Qt::guru ~amd64
 gui-wm/gamescope ~amd64
 games-emulation/RetroArch ~amd64
 net-misc/megatools ~amd64
+
+# SYS LIBS
+<=sys-libs/snapd-glib-1.68
