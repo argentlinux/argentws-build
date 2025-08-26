@@ -45,7 +45,7 @@ dev-python/pyside webview
 # ENGINES & GAMING
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
 dev-qt/qtgui:5 gtkstyle
-dev-qt/qtmultimedia:5 widgets 
+dev-qt/qtmultimedia:5 widgets
 dev-qt/qtpositioning:5 geoclue
 dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebchannel:5 qml
@@ -58,6 +58,7 @@ dev-util/glade:3 -gnome
 games-fps/urbanterror smp sdl
 games-fps/xonotic sdl
 games-strategy/0ad sound
+games-emulation/RetroArch network
 gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 gnome-extra/synapse -zeitgeist
 #kde-plasma/kwin screencast
@@ -65,8 +66,9 @@ lxqt-base/lxqt-meta branding
 lxqt-base/lxqt-panel colorpicker cpuload networkmonitor sensors statusnotifier sysstat worldclock
 mail-client/claws-mail -webkit -libindicate
 # move dev-python/pyside6 dev-python/pyside
->=dev-python/pyside-6.8.1 uitools
+>=dev-python/pyside-6.8.1 uitools webchannel
 #net-im/discord plasma pipewire
+
 
 # thudnerbir flags
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi bindist
