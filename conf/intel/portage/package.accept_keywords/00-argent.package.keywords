@@ -36,6 +36,7 @@ net-im/teams-for-linux::guru ~amd64
 >=dev-games/unityhub-3.9.1::guru ~amd64
 >=games-util/lutris-1::gentoo ~amd64
 >=games-util/game-device-udev-rules-20240523::gentoo ~amd64
+games-util/heroic-bin ~amd64
 >=sys-libs/libudev-compat-186-r1::gentoo ~amd64
 >=app-emulation/steam-1.0.0.79::argent-ws ~amd64
 >=dev-util/scanmem-0.17::gentoo ~amd64
@@ -45,6 +46,9 @@ media-libs/vkroots ~amd64
 games-util/ProtonUp-Qt::guru ~amd64
 gui-wm/gamescope ~amd64
 games-emulation/RetroArch ~amd64
+games-emulation/libretro-bnes ~amd64
+games-strategy/seven-kingdoms ~amd64
+games-strategy/0ad ~amd64
 net-misc/megatools ~amd64
 net-vpn/mullvadvpn-app ~amd64
 
