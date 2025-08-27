@@ -51,6 +51,7 @@ games-strategy/seven-kingdoms ~amd64
 games-strategy/0ad ~amd64
 net-misc/megatools ~amd64
 net-vpn/mullvadvpn-app ~amd64
+<=net-libs/gloox-1.0.28 ~amd64
 
 # SYS LIBS
 <=sys-libs/snapd-glib-1.68
