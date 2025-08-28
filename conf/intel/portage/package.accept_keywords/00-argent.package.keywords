@@ -25,6 +25,7 @@ net-im/skypeforlinux ~amd64
 >=dev-util/goland-2024::argent-ws ~amd64
 >=dev-util/webstorm-2024::argent-ws ~amd64
 >=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
+dev-util/flatpak-builder ~amd64
 >=media-video/obs-studio-30 ~amd64
 =gui-libs/egl-x11-1.0.0 ~amd64
 app-emulation/vmware-modules::argent-ws ~amd64
