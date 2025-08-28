@@ -137,6 +137,8 @@ sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs
 >=sys-libs/ncurses-6.4_p20240414 -gpm
 >=sys-libs/db-4.8.30-r9:4.8 cxx
 dev-libs/libffi-compat -abi_x86_32
+>=dev-libs/appstream-1.0.4-r1 compose
+
 
 
 #GRUB & Device Mapper supports
