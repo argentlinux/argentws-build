@@ -161,6 +161,7 @@ sys-kernel/argent-sources symlink grub2
 sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi mdadm luks lvm zfs plymouth
 >=sys-kernel/installkernel-48-r1 dracut
 sys-kernel/gentoo-sources -symlink
+sys-kernel/dracut dracut-cpio
 
 # WWW stuff & browsers
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
