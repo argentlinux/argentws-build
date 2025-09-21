@@ -24,6 +24,11 @@ net-im/skypeforlinux ~amd64
 <dev-util/pycharm-professional-2025.2.2::gentoo ~amd64
 <dev-util/pycharm-community-2025.2.2::gentoo ~amd64
 <dev-util/webstorm-2025.2.2::guru ~amd64
+dev-util/clion::argent-ws ~amd64
+dev-util/goland::argent-ws ~amd64
+dev-util/pycharm-professional::argent-ws ~amd64
+dev-util/pycharm-community::argent-ws ~amd64
+dev-util/webstorm::argent-ws ~amd64
 >=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
 dev-util/flatpak-builder ~amd64
 >=media-video/obs-studio-30 ~amd64
