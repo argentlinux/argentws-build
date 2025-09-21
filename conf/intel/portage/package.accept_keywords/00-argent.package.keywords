@@ -19,11 +19,11 @@ net-im/skypeforlinux ~amd64
 =dev-libs/libpthread-stubs-0.5 **
 
 # DEVELOPMENT && TOOLS
->=dev-util/clion-2024::argent-ws ~amd64
->=dev-util/pycharm-community-2024::argent-ws ~amd64
->=dev-util/pycharm-professional-2024::argent-ws ~amd64
->=dev-util/goland-2024::argent-ws ~amd64
->=dev-util/webstorm-2024::argent-ws ~amd64
+<dev-util/clion-2025.2.2::gentoo ~amd64
+<dev-util/goland-2025.2.2::gentoo ~amd64
+<dev-util/pycharm-professional-2025.2.2::gentoo ~amd64
+<dev-util/pycharm-community-2025.2.2::gentoo ~amd64
+<<dev-util/webstorm-2025.2.2::guru ~amd64
 >=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
 dev-util/flatpak-builder ~amd64
 >=media-video/obs-studio-30 ~amd64
