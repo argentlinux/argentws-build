@@ -19,6 +19,7 @@ net-im/skypeforlinux ~amd64
 =dev-libs/libpthread-stubs-0.5 **
 
 # DEVELOPMENT && TOOLS
+app-admin/flatpakify ~amd64
 <dev-util/clion-2025.2.2::gentoo ~amd64
 <dev-util/goland-2025.2.2::gentoo ~amd64
 <dev-util/pycharm-professional-2025.2.2::gentoo ~amd64
@@ -36,6 +37,7 @@ dev-util/flatpak-builder ~amd64
 app-emulation/vmware-modules::argent-ws ~amd64
 app-emulation/vmware-workstation::argent-ws ~amd64
 net-im/teams-for-linux::guru ~amd64
+
 
 # GAME DEVELOPMENT
 >=media-plugins/obs-vkcapture-1.0 ~amd64
