@@ -127,7 +127,7 @@ net-misc/remmina gvnc rdp ssh vnc
 net-misc/tigervnc server
 net-misc/youtube-dl offensive
 net-p2p/qbittorrent webui
-net-wireless/wpa_supplicant tkip
+net-wireless/wpa_supplicant tkip wps
 sys-apps/smartmontools minimal
 sys-apps/systemd sysv-utils cryptsetup
 sys-apps/v86d x86emu
