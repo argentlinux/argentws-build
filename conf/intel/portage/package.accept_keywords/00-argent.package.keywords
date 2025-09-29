@@ -14,6 +14,7 @@ dev-util/nvidia-cuda-toolkit ~amd64
 >=net-im/signal-desktop-bin-5.0.0 ~amd64
 net-im/skypeforlinux ~amd64
 >=net-im/mattermost-desktop-bin-5.9 ~amd64
+net-im/whatsapp-desktop-bin ~amd64
 
 # libpthread-stubs
 =dev-libs/libpthread-stubs-0.5 **
