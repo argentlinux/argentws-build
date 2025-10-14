@@ -21,6 +21,7 @@ net-im/whatsapp-desktop-bin ~amd64
 
 # DEVELOPMENT && TOOLS
 app-containers/waydroid ~amd64
+<dev-python/pyclip-9999 ~amd64
 dev-util/android-studio ~amd64
 dev-util/flatpakify ~amd64
 <dev-util/clion-2025.2.2::gentoo ~amd64
