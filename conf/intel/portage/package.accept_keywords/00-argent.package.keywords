@@ -28,11 +28,11 @@ app-containers/waydroid ~amd64
 <dev-libs/gbinder-9999 ~amd64
 dev-util/android-studio ~amd64
 dev-util/flatpakify ~amd64
-<dev-util/clion-2025.2.2::gentoo ~amd64
-<dev-util/goland-2025.2.2::gentoo ~amd64
-<dev-util/pycharm-professional-2025.2.2::gentoo ~amd64
-<dev-util/pycharm-community-2025.2.2::gentoo ~amd64
-<dev-util/webstorm-2025.2.2::guru ~amd64
+<dev-util/clion-2025.3::gentoo ~amd64
+<dev-util/goland-2025.3::gentoo ~amd64
+<dev-util/pycharm-professional-2025.3::gentoo ~amd64
+<dev-util/pycharm-community-2025.3::gentoo ~amd64
+<dev-util/webstorm-2025.3::guru ~amd64
 dev-util/clion::argent-ws ~amd64
 dev-util/goland::argent-ws ~amd64
 dev-util/pycharm-professional::argent-ws ~amd64
