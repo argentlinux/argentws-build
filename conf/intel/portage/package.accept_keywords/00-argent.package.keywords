@@ -20,6 +20,7 @@ net-im/whatsapp-desktop-bin ~amd64
 =dev-libs/libpthread-stubs-0.5 **
 
 # DEVELOPMENT && TOOLS
+<app-emulation/wine-proton-11 ~amd64
 app-containers/waydroid ~amd64
 <dev-python/pyclip-9999 ~amd64
 <dev-python/gbinder-9999 ~amd64
