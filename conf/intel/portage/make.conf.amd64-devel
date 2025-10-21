@@ -36,7 +36,7 @@ L10N="en en-US uk en-GB ro ro-RO"
 ## USE FLAGS ##
 SYSTEM_USE="X cacert glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite wayland"
 CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
-MEDIA_USE="cairo drm dri dri3 vaapi vdpau egl opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
+MEDIA_USE="cairo drm dri dri3 egl opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska phonon libass vaapi vdpau xml xcb xkb"
 IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
 TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt3support qt5 qt6"
 NETWORK_USE="ipv6 avahi zeroconf"
