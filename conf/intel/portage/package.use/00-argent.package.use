@@ -32,6 +32,7 @@ app-text/enchant hunspell
 dev-python/pyside webengine quick
 >=dev-lang/php-8.3.21 calendar intl
 >=dev-qt/qttools-6.9.2 designer
+sys-libs/glibc hash-sysv-compat
 
 # GAME DEVELOPMENT #
 >=media-libs/vulkan-loader-1.3.296.0 layers
