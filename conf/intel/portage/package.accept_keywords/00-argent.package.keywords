@@ -48,7 +48,7 @@ net-im/teams-for-linux::guru ~amd64
 
 
 # GAME DEVELOPMENT
-app-emulation/steam-launcher ~amd64
+app-emulation/steam-launcher::argent-ws ~amd64
 >=media-plugins/obs-vkcapture-1.0 ~amd64
 >=dev-games/unityhub-3.9.1::guru ~amd64
 >=games-util/lutris-1::gentoo ~amd64
