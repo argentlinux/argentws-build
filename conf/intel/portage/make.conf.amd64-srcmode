@@ -15,6 +15,7 @@ FFLAGS="${COMMON_FLAGS}"
 
 ## BUILD & PORTAGE FEATURES ##
 FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug -userpriv"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --rebuilt-binaries"
 #PORTAGE_NICENESS="-19"
 
 # Portage main directories
