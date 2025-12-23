@@ -50,6 +50,7 @@ net-im/teams-for-linux::guru ~amd64
 # GAME DEVELOPMENT
 app-emulation/steam-launcher::argent-ws ~amd64
 dev-games/godot::gentoo ~amd64
+dev-games/recastnavigation::gentoo ~amd64
 >=media-plugins/obs-vkcapture-1.0 ~amd64
 >=dev-games/unityhub-3.9.1::guru ~amd64
 >=games-util/lutris-1::gentoo ~amd64
@@ -67,6 +68,7 @@ games-emulation/RetroArch ~amd64
 games-emulation/libretro-bnes ~amd64
 games-strategy/seven-kingdoms ~amd64
 games-strategy/0ad ~amd64
+net-libs/wslay::gentoo ~amd64
 net-misc/megatools ~amd64
 net-vpn/mullvadvpn-app ~amd64
 <=net-libs/gloox-1.0.28 ~amd64
