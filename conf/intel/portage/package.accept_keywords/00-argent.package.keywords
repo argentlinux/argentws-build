@@ -24,6 +24,7 @@ net-im/whatsapp-desktop-bin ~amd64
 app-containers/waydroid ~amd64
 <dev-python/pyclip-9999 ~amd64
 <dev-python/gbinder-9999 ~amd64
+dev-libs/libdwarf ~amd64
 <dev-libs/libglibutil-9999 ~amd64
 <dev-libs/gbinder-9999 ~amd64
 dev-util/android-studio ~amd64
