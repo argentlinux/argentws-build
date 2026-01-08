@@ -210,7 +210,7 @@ dev-java/openjdk headless-awt -alsa -cups
 >=dev-java/openjdk-bin-17.0.12_p7 -headless-awt
 kde-plasma/discover snap webengine flatpak
 kde-plasma/plasma-workspace networkmanager
-kde-plasma/plasma-meta colord discover oxygen-theme plymouth thunderbolt webengine
+kde-plasma/plasma-meta colord discover flatpak oxygen-theme plymouth thunderbolt webengine
 >=kde-frameworks/kio-6.7.0-r1 handbook
 kde-apps/ksystemlog kdesu
 kde-apps/ark zip
