@@ -47,7 +47,7 @@ DONT_USE="-bindist -qt4 -connman -networkmanager -modemmanager -libav -tracker -
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
 ## VIDEO ##
-VIDEO_CARDS="amdgpu intel i915 i965 d3d12 nouveau nvidia r100 r200 r300 r600 radeonsi radeon vesa vmware zink"
+VIDEO_CARDS="amdgpu intel i915 i965 d3d12 nouveau nvidia r100 r200 r300 r600 radeonsi radeon vesa zink"
 LIRC_DEVICES="audio audio_alsa serial pctv"
 
 ## DRACUT MODULES ##

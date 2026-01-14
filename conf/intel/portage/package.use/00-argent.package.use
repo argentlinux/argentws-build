@@ -97,7 +97,7 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libsdl sound
 media-libs/libvpx postproc
 media-libs/libsdl2 gles
-media-libs/mesa d3d9 gles1 gles2 xa wayland
+media-libs/mesa d3d9 gles1 gles2 xa wayland video_cards_vmware
 media-libs/opencv contribfreetype -gtk3 qt6
 media-libs/openpgl cpu_flags_x86_sse4_2
 >=media-libs/opensubdiv-3.6.0-r3 tbb
@@ -184,7 +184,7 @@ x11-misc/lightdm -gnome
 x11-misc/lightdm-gtk-greeter branding
 x11-misc/spacefm gtk2 -gtk3
 x11-libs/gksu -gnome
-x11-libs/libdrm libkms
+x11-libs/libdrm libkms video_cards_vmware
 x11-libs/wxGTK:2.8 -gnome -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
 x11-themes/gtk-engines-murrine -themes
