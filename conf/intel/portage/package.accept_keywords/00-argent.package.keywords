@@ -54,6 +54,7 @@ app-emulation/steam-launcher::argent-ws ~amd64
 dev-games/godot::gentoo ~amd64
 dev-games/recastnavigation::gentoo ~amd64
 >=media-plugins/obs-vkcapture-1.0 ~amd64
+<media-plugins/obs-pipewire-audio-capture-9999 ~amd64
 >=dev-games/unityhub-3.9.1::guru ~amd64
 >=games-util/lutris-1::gentoo ~amd64
 >=games-util/game-device-udev-rules-20240523::gentoo ~amd64
