@@ -7,14 +7,13 @@ COMMON_FLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
 
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j8 -s"
-CXXFLAGS="${CFLAGS}"
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
 FCFLAGS="${COMMON_FLAGS}"
 FFLAGS="${COMMON_FLAGS}"
 
 ## BUILD & PORTAGE FEATURES ##
-FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
+FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug -nostrip"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg --rebuilt-binaries"
 
 # Portage main directories
