@@ -1,6 +1,7 @@
 # ARGENT TOOLS
 >=app-crypt/qca-2.3.9 qt6
 app-portage/epkg git
+app-portage/portage-utils gtree
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
 app-arch/bzip2 static-libs
