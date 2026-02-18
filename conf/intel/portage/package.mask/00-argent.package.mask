@@ -8,3 +8,6 @@ sys-boot/grub::gentoo
 sys-apps/hwids[udev]
 
 <dev-python/setuptools-67
+
+# old perl banned
+=dev-lang/perl-5.40*
