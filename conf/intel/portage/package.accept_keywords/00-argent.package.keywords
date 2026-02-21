@@ -82,3 +82,6 @@ net-vpn/mullvadvpn-app ~amd64
 
 # MULTIMEDIA
 www-apps/jellyfin ~amd64
+
+# X11-Themes
+x11-themes/kvantum ~amd64
