@@ -52,6 +52,7 @@ net-im/teams-for-linux::guru ~amd64
 
 # GAME DEVELOPMENT
 app-emulation/steam-launcher::argent-ws ~amd64
+>=dev-libs/libappindicator-12.10.1_p20200706-r1 ~amd64
 dev-games/godot::gentoo ~amd64
 dev-games/recastnavigation::gentoo ~amd64
 >=media-plugins/obs-vkcapture-1.0 ~amd64
