@@ -26,6 +26,7 @@ app-misc/calamares-config-argent installer
 >=dev-python/pyqt6-6.7.1-r1 webchannel
 >=dev-libs/boost-1.85.0-r1 python
 >=dev-libs/libpwquality-1.4.5-r2 python
+>=dev-lua/luasocket-3.1.0 lua_targets_lua5-3
 >=sys-fs/squashfs-tools-ng-1 lz4 lzo
 >=sys-libs/libcap-2.71 static-libs
 >=dev-util/xdelta-3.0.11-r1 lzma
