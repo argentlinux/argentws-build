@@ -60,8 +60,12 @@ dev-games/recastnavigation::gentoo ~amd64
 >=dev-games/unityhub-3.9.1::guru ~amd64
 >=games-util/lutris-1::gentoo ~amd64
 >=games-util/game-device-udev-rules-20240523::gentoo ~amd64
-games-util/heroic-bin ~amd64
-games-util/esteam ~amd64
+games-util/heroic-bin::gentoo ~amd64
+games-util/heroic-bin::argent-ws ~amd64
+games-util/esteam::gentoo ~amd64
+games-util/esteam::argent-ws ~amd64
+games-util/steam-launcher::gentoo ~amd64
+games-util/steam-launcher::argent-ws ~amd64
 >=sys-libs/libudev-compat-186-r1::gentoo ~amd64
 >=app-emulation/steam-1.0.0.79::argent-ws ~amd64
 >=dev-util/scanmem-0.17::gentoo ~amd64
