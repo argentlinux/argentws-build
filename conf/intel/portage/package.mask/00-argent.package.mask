@@ -1,5 +1,6 @@
 # from gentoo
 app-portage/epkg::gentoo
+app-admin/calamares::gentoo
 sys-boot/os-prober::gentoo
 sys-boot/grub::gentoo
 
