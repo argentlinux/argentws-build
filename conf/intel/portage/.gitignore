@@ -6,4 +6,7 @@
 !binrepos.conf
 !bashrc-devel
 !package.accept_keywords
+!package.env
 !package.use
+!package.mask
+!package.unmask
