@@ -82,3 +82,5 @@ GENTOO_MIRRORS="https://pkgwork.argentlinux.io/ \
     http://ftp.romnet.org/gentoo/ \
     http://mirror.init7.net/gentoo/ \
     http://mirrors.mit.edu/gentoo-distfiles/"
+
+source /etc/portage/make.conf.local
