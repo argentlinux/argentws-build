@@ -77,9 +77,10 @@ INSTALL_MASK="/etc/init.d
               /usr/lib/debug"
 
 GENTOO_MIRRORS="https://pkgwork.argentlinux.io/ \
-    http://mirror.bytemark.co.uk/gentoo/ \
     http://ftp.romnet.org/gentoo/ \
-    http://mirror.init7.net/gentoo/ \
-    http://mirrors.mit.edu/gentoo-distfiles/"
+    http://us.mirrors.cicku.me/gentoo/ \
+    http://mirror.sbb.rs/gentoo/ \
+    http://mirrors.aliyun.com/gentoo/ \
+    https://us.mirrors.cicku.me/gentoo/"
 
 source /etc/portage/make.conf.local
