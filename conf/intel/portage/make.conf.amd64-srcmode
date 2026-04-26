@@ -83,4 +83,3 @@ GENTOO_MIRRORS="https://pkgwork.argentlinux.io/ \
     https://us.mirrors.cicku.me/gentoo/"
 
 
-source /etc/portage/make.conf.local
