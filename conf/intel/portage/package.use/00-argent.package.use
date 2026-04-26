@@ -150,7 +150,7 @@ dev-libs/libffi-compat -abi_x86_32
 
 
 #GRUB & Device Mapper supports
-sys-boot/grub device-mapper mount -static truetype multislot
+sys-boot/grub -branding device-mapper mount -static truetype multislot
 sys-libs/libblockdev device-mapper
 sys-fs/cryptsetup -gcrypt
 sys-fs/dmraid intel_led led mini
