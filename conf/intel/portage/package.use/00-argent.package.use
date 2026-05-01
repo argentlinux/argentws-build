@@ -167,7 +167,7 @@ sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/argent-sources symlink grub2
 sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi mdadm luks lvm zfs plymouth
->=sys-kernel/installkernel-48-r1 dracut
+>=sys-kernel/installkernel-48-r1 dracut grub
 sys-kernel/gentoo-sources -symlink
 sys-kernel/dracut dracut-cpio
 
