@@ -7,7 +7,7 @@ sys-boot/grub::gentoo
 # old packages
 <=dev-qt/qtwayland-5.15.3:5
 sys-apps/hwids[udev]
-
+<dev-python/ensurepip-pip-26
 <dev-python/setuptools-67
 
 # old perl banned
