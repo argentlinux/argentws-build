@@ -49,7 +49,7 @@ dev-libs/libgusb vala
 dev-python/pyside webview
 >=media-libs/babl-0.1.116 introspection
 >=media-libs/gegl-0.4.64-r1 introspection
-
+sys-fs/lvm2 nvme
 
 # ENGINES & GAMING
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
