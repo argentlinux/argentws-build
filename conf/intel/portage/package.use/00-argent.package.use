@@ -12,6 +12,7 @@ app-containers/docker overlay pkcs11 btrfs device-mapper overlay
 app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
+app-misc/fastfetch imagemagick
 app-text/xmlto text
 dev-db/sqlite -secure-delete
 dev-lang/fpc source
