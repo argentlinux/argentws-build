@@ -133,6 +133,7 @@ net-irc/quassel phonon server crypt
 net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc
 net-misc/networkmanager connection-sharing modemmanager nftables
 net-misc/teamviewer -system-wine
+>=net-misc/freerdp-3.24.2 server
 net-misc/remmina gvnc rdp ssh vnc
 net-misc/tigervnc server
 net-misc/youtube-dl offensive
