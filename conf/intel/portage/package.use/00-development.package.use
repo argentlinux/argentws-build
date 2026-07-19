@@ -12,8 +12,8 @@ dev-qt/qt-creator designer
 net-analyzer/nmap zenmap
 net-dns/bind dlz geoip json ldap mysql urandom -threads
 net-dns/bind-tools urandom
-sys-devel/gcc go gcj graphite
-sys-devel/base-gcc go gcj graphite
+sys-devel/gcc go gcj graphite hardened jit
+sys-devel/base-gcc go gcj graphite hardened jit
 
 #python 3.5 directive
 >=app-editors/vim-7 python_targets_python3_5 -python_targets_python3_4
@@ -44,10 +44,6 @@ app-arch/rpm PYTHON_SINGLE_TARGET: python2_7 -python3_5 -python3_6
 
 # asciidoc new USE flag
 app-text/asciidoc PYTHON_SINGLE_TARGET: python2_7
-
-# GCC 7.x hardened
->=sys-devel/gcc-7.3.0 hardened
->=sys-devel/base-gcc-7.3.0 hardened
 
 # RUBY specific
 =dev-ruby/hiera-3.4.3 ruby_targets_ruby25
