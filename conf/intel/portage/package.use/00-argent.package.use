@@ -223,5 +223,6 @@ kde-apps/ark zip
 
 
 # net-libs
+>=net-libs/gtk-vnc-1.5.0 pulseaudio
 net-libs/libproxy -introspection
 net-libs/nodejs npm
