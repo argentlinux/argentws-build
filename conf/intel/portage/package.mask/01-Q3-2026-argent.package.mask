@@ -1,0 +1,30 @@
+# Exceptional Q3-2026 masking has to be done
+# Ban all versions above 6.10.9 for the Qt 6.10 stack (pin to the 6.10 branch)
+>dev-perl/HTTP-Negotiate-6.10.9
+>dev-python/pyqt6-6.10.9
+>dev-python/pyside-6.10.9
+>dev-qt/qt5compat-6.10.9
+>dev-qt/qtbase-6.10.9
+>dev-qt/qtcharts-6.10.9
+>dev-qt/qtconnectivity-6.10.9
+>dev-qt/qtdeclarative-6.10.9
+>dev-qt/qtimageformats-6.10.9
+>dev-qt/qtlocation-6.10.9
+>dev-qt/qtmultimedia-6.10.9
+>dev-qt/qtpositioning-6.10.9
+>dev-qt/qtquick3d-6.10.9
+>dev-qt/qtquicktimeline-6.10.9
+>dev-qt/qtscxml-6.10.9
+>dev-qt/qtsensors-6.10.9
+>dev-qt/qtshadertools-6.10.9
+>dev-qt/qtspeech-6.10.9
+>dev-qt/qttasktree-6.10.9
+>dev-qt/qtsvg-6.10.9
+>dev-qt/qttools-6.10.9
+>dev-qt/qttranslations-6.10.9
+>dev-qt/qtwayland-6.10.9
+>dev-qt/qtwebchannel-6.10.9
+>dev-qt/qtwebengine-6.10.9
+>dev-qt/qtwebview-6.10.9
+=perl-core/Compress-Raw-Zlib-2.213.0
+
