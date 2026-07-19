@@ -52,7 +52,7 @@ LIRC_DEVICES="audio audio_alsa serial pctv"
 DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
 
 ## PYTHON ##
-PYTHON_TARGETS="python3_12 python3_13"
+PYTHON_TARGETS="python3_12 python3_13 python3_14"
 PYTHON_SINGLE_TARGET="python3_12"
 
 ## QEMU ##
