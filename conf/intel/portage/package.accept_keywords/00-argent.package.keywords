@@ -50,6 +50,7 @@ gui-apps/wayvnc ~amd64
 app-emulation/vmware-modules::argent-ws ~amd64
 app-emulation/vmware-workstation::argent-ws ~amd64
 net-im/teams-for-linux::guru ~amd64
+<net-irc/quassel-9999 ~amd64
 
 
 # GAME DEVELOPMENT
