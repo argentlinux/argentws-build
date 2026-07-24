@@ -1,4 +1,5 @@
 *.*
+gnupg/
 !make.conf.amd64-devel
 !make.conf.amd64-srcmode
 !make.conf.amd64-user
