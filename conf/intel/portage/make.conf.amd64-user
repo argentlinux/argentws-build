@@ -13,7 +13,7 @@ FCFLAGS="${COMMON_FLAGS}"
 FFLAGS="${COMMON_FLAGS}"
 
 ## BUILD & PORTAGE FEATURES ##
-FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug -nostrip"
+FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug -nostrip -binpkg-request-signature binpkg-ignore-signature"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
 
 # Portage main directories
