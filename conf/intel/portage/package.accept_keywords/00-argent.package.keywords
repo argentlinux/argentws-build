@@ -50,6 +50,7 @@ gui-apps/wayvnc ~amd64
 =gui-libs/egl-x11-1.0.0 ~amd64
 =gui-libs/neatvnc-1.0.0 ~amd64
 >=media-video/obs-studio-30 ~amd64
+<media-video/simplescreenrecorder-0.5 ~amd64
 net-im/teams-for-linux::guru ~amd64
 <net-irc/quassel-9999 ~amd64
 <sys-block/thin-provisioning-tools-1.3.5 ~amd64
