@@ -2,88 +2,88 @@
 app-admin/calamares ~amd64
 
 # CPU & GPU
-=app-misc/ddcutil-0.9.9 ~amd64
 app-benchmarks/occt-bin ~amd64
+=app-misc/ddcutil-0.9.9 ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 
-
-# linux-headers
+# LINUX-HEADERS
 =sys-kernel/linux-hears-5.11  ~amd64
 
-# chatting
+# CHATTING
+>=net-im/mattermost-desktop-bin-5.9 ~amd64
 >=net-im/signal-desktop-bin-5.0.0 ~amd64
 net-im/skypeforlinux ~amd64
->=net-im/mattermost-desktop-bin-5.9 ~amd64
 net-im/whatsapp-desktop-bin ~amd64
 
-# libpthread-stubs
+# LIBPTHREAD-STUBS
 =dev-libs/libpthread-stubs-0.5 **
 
 # DEVELOPMENT && TOOLS
-<app-portage/portage-utils-0.9999 ~amd64
-<app-emulation/wine-proton-11 ~amd64
 app-containers/waydroid ~amd64
-<dev-python/pyclip-9999 ~amd64
-<dev-python/gbinder-9999 ~amd64
+<=app-editors/neovim-0.13 ~amd64
+app-emulation/vmware-modules::argent-ws ~amd64
+app-emulation/vmware-workstation::argent-ws ~amd64
+<app-emulation/wine-proton-11 ~amd64
+<app-portage/portage-utils-0.9999 ~amd64
 =dev-libs/aml-1.0.0 ~amd64
+<dev-libs/gbinder-9999 ~amd64
 dev-libs/libdwarf ~amd64
 <dev-libs/libglibutil-9999 ~amd64
-<dev-libs/gbinder-9999 ~amd64
+<dev-python/gbinder-9999 ~amd64
+<dev-python/pyclip-9999 ~amd64
 dev-util/android-studio ~amd64
-dev-util/flatpakify ~amd64
 <dev-util/clion-2025.3::gentoo ~amd64
-<dev-util/goland-2025.3::gentoo ~amd64
-<dev-util/pycharm-professional-2025.3::gentoo ~amd64
-<dev-util/pycharm-community-2025.3::gentoo ~amd64
-<dev-util/webstorm-2025.3::guru ~amd64
 dev-util/clion::argent-ws ~amd64
-dev-util/goland::argent-ws ~amd64
-dev-util/pycharm-professional::argent-ws ~amd64
-dev-util/pycharm-community::argent-ws ~amd64
-dev-util/webstorm::argent-ws ~amd64
->=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
 dev-util/flatpak-builder ~amd64
->=media-video/obs-studio-30 ~amd64
+dev-util/flatpakify ~amd64
+<dev-util/goland-2025.3::gentoo ~amd64
+dev-util/goland::argent-ws ~amd64
+<dev-util/pycharm-community-2025.3::gentoo ~amd64
+dev-util/pycharm-community::argent-ws ~amd64
+<dev-util/pycharm-professional-2025.3::gentoo ~amd64
+dev-util/pycharm-professional::argent-ws ~amd64
+>=dev-util/shellcheck-0.9.0-r2::gentoo ~amd64
+<dev-util/webstorm-2025.3::guru ~amd64
+dev-util/webstorm::argent-ws ~amd64
 gui-apps/wayvnc ~amd64
 =gui-libs/egl-x11-1.0.0 ~amd64
 =gui-libs/neatvnc-1.0.0 ~amd64
-app-emulation/vmware-modules::argent-ws ~amd64
-app-emulation/vmware-workstation::argent-ws ~amd64
+>=media-video/obs-studio-30 ~amd64
 net-im/teams-for-linux::guru ~amd64
 <net-irc/quassel-9999 ~amd64
 <sys-block/thin-provisioning-tools-1.3.5 ~amd64
 
 # GAME DEVELOPMENT
+>=app-emulation/steam-1.0.0.79::argent-ws ~amd64
 app-emulation/steam-launcher::argent-ws ~amd64
->=dev-libs/libappindicator-12.10.1_p20200706-r1 ~amd64
 dev-games/godot::gentoo ~amd64
 dev-games/recastnavigation::gentoo ~amd64
->=media-plugins/obs-vkcapture-1.0 ~amd64
-<media-plugins/obs-pipewire-audio-capture-9999 ~amd64
 >=dev-games/unityhub-3.9.1::guru ~amd64
->=games-util/lutris-1::gentoo ~amd64
->=games-util/game-device-udev-rules-20240523::gentoo ~amd64
-games-util/heroic-bin::gentoo ~amd64
-games-util/heroic-bin::argent-ws ~amd64
-games-util/esteam::gentoo ~amd64
-games-util/esteam::argent-ws ~amd64
-games-util/steam-launcher::gentoo ~amd64
-games-util/steam-launcher::argent-ws ~amd64
->=sys-libs/libudev-compat-186-r1::gentoo ~amd64
->=app-emulation/steam-1.0.0.79::argent-ws ~amd64
->=dev-util/scanmem-0.17::gentoo ~amd64
-media-libs/vkroots ~amd64
+>=dev-libs/libappindicator-12.10.1_p20200706-r1 ~amd64
 >=dev-python/steam-1.6.1::guru ~amd64
-games-util/ProtonUp-Qt::guru ~amd64
-gui-wm/gamescope ~amd64
-games-emulation/RetroArch ~amd64
+>=dev-util/scanmem-0.17::gentoo ~amd64
 games-emulation/libretro-bnes ~amd64
-games-strategy/seven-kingdoms ~amd64
+games-emulation/RetroArch ~amd64
 games-strategy/0ad ~amd64
+games-strategy/seven-kingdoms ~amd64
+games-util/esteam::argent-ws ~amd64
+games-util/esteam::gentoo ~amd64
+>=games-util/game-device-udev-rules-20240523::gentoo ~amd64
+games-util/heroic-bin::argent-ws ~amd64
+games-util/heroic-bin::gentoo ~amd64
+>=games-util/lutris-1::gentoo ~amd64
+games-util/ProtonUp-Qt::guru ~amd64
+games-util/steam-launcher::argent-ws ~amd64
+games-util/steam-launcher::gentoo ~amd64
+gui-wm/gamescope ~amd64
+media-libs/vkroots ~amd64
+<media-plugins/obs-pipewire-audio-capture-9999 ~amd64
+>=media-plugins/obs-vkcapture-1.0 ~amd64
+<=net-libs/gloox-1.0.28 ~amd64
 net-libs/wslay::gentoo ~amd64
 net-misc/megatools ~amd64
 net-vpn/mullvadvpn-app ~amd64
-<=net-libs/gloox-1.0.28 ~amd64
+>=sys-libs/libudev-compat-186-r1::gentoo ~amd64
 
 # MEDIA & ART
 media-gfx/krita ~amd64
@@ -94,5 +94,5 @@ media-gfx/krita ~amd64
 # MULTIMEDIA
 www-apps/jellyfin ~amd64
 
-# X11-Themes
+# X11-THEMES
 x11-themes/kvantum ~amd64
