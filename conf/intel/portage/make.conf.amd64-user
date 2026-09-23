@@ -16,6 +16,11 @@ FFLAGS="${COMMON_FLAGS}"
 FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug -nostrip -binpkg-request-signature binpkg-ignore-signature"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
 
+## QMERGE ##
+QMERGE_BINPKG_RESPECT_USE="n"
+QMERGE_REBUILT_BINARIES="y"
+QMERGE_LENIENT_UPGRADE="1"
+
 # Portage main directories
 PORTAGE_GROUP="portage"
 PKGDIR="/var/cache/binpkgs"
