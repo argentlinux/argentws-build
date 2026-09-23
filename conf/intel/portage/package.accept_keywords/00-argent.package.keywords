@@ -24,7 +24,7 @@ app-containers/waydroid ~amd64
 app-emulation/vmware-modules::argent-ws ~amd64
 app-emulation/vmware-workstation::argent-ws ~amd64
 <app-emulation/wine-proton-11 ~amd64
-<app-portage/portage-utils-0.9999 ~amd64
+<app-portage/portage-utils-0.9999::argent-ws ~amd64
 =dev-libs/aml-1.0.0 ~amd64
 <dev-libs/gbinder-9999 ~amd64
 dev-libs/libdwarf ~amd64
