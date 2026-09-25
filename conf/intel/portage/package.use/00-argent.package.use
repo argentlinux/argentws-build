@@ -221,7 +221,10 @@ kde-apps/ksystemlog kdesu
 kde-apps/ark zip
 
 
-# net-libs
+# NET LIBS
 >=net-libs/gtk-vnc-1.5.0 pulseaudio
 net-libs/libproxy -introspection
 net-libs/nodejs npm
+
+# VIRTUALS
+virtual/notification-daemon -gnome
