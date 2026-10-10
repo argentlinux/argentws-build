@@ -10,8 +10,7 @@ dev-libs/xmlsec nss
 dev-lang/php truetype gd
 dev-qt/qt-creator designer
 net-analyzer/nmap zenmap
-net-dns/bind dlz geoip json ldap mysql urandom -threads
-net-dns/bind-tools urandom
+net-dns/bind geoip gssapi
 sys-devel/gcc go gcj graphite hardened jit
 sys-devel/base-gcc go gcj graphite hardened jit
 

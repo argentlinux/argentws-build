@@ -128,7 +128,9 @@ net-firewall/firewalld gui
 net-print/cnijfilter net servicetools
 net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
 net-print/hplip fax scanner snmp
-net-fs/samba client ldap syslog
+net-fs/samba ads client ldap python syslog winbind
+sys-libs/tdb python
+sys-libs/tevent python
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel phonon server crypt
 net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc
@@ -227,6 +229,7 @@ kde-apps/ark zip
 # NET LIBS
 >=net-libs/gtk-vnc-1.5.0 pulseaudio
 net-libs/libproxy -introspection
+net-libs/ngtcp2 gnutls
 net-libs/nodejs npm
 
 # VIRTUALS
