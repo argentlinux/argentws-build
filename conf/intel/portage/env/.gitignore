@@ -10,6 +10,7 @@
 !ggdb.x86.conf
 !hardened.conf
 !linguas-en.conf
+!no.calamares.desktop.conf
 !noframepointer.conf
 !nographite.amd64.conf
 !nographite.x86.conf

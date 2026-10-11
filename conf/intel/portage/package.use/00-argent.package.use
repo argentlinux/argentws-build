@@ -18,8 +18,6 @@ dev-db/sqlite -secure-delete
 dev-lang/fpc source
 
 # ARGENT INSTALLERS
-app-admin/calamares branding config
-app-misc/calamares-runtime branding
 app-misc/calamares-config-argent installer
 
 # DEVELOPMENT
