@@ -3,18 +3,11 @@ app-text/poppler nss
 app-containers/docker btrfs device-mapper overlay
 app-containers/containerd btrfs device-mapper
 
-# kernel
-sys-kernel/argent-sources symlink -plymouth
-sys-kernel/linux-argent dmraid dracut symlink grub iscsi mdadm luks lvm zfs -plymouth
-
 # lvm
 >=sys-fs/lvm2-2.03.21 lvm thin
 
 # grub
 sys-boot/grub device-mapper mount -static truetype multislot
-
-# genkernel
-sys-kernel/genkernel-next dmraid mdadm -plymouth
 
 # no-X programs
 app-editors/vim -X

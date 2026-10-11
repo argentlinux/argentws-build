@@ -169,10 +169,9 @@ sys-libs/zlib minizip static-libs
 llvm-core/llvm clang
 
 # GENKERNEL / Kernels
-sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid iscsi
 sys-kernel/argent-sources symlink grub2
-sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi mdadm luks lvm zfs plymouth
+sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi mdadm luks lvm zfs
 >=sys-kernel/installkernel-48-r1 dracut grub
 sys-kernel/gentoo-sources -symlink
 
@@ -220,7 +219,7 @@ kde-plasma/discover -firmware flatpak webengine
 kde-plasma/discover-snap -firmware flatpak snap webengine
 kde-plasma/plasma-workspace networkmanager
 app-misc/argent-skel -gtk
-kde-plasma/plasma-meta colord discover flatpak oxygen-theme plymouth thunderbolt webengine -qt5 -wallpapers
+kde-plasma/plasma-meta colord discover flatpak oxygen-theme thunderbolt webengine -qt5 -wallpapers
 >=kde-frameworks/kio-6.7.0-r1 handbook
 kde-apps/ksystemlog kdesu
 kde-apps/ark zip
