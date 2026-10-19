@@ -161,6 +161,7 @@ sys-fs/dmraid intel_led led mini
 sys-fs/dosfstools compat
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip static-libs
+>=sys-apps/polychromatic-0.9.8::gentoo python_single_target_python3_14
 
 # LLVM / CLANG
 # move sys-devel/llvm llvm-core/llvm
