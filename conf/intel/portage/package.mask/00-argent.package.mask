@@ -3,6 +3,7 @@ app-portage/epkg::gentoo
 app-portage/portage-utils::gentoo
 sys-boot/os-prober::gentoo
 sys-boot/grub::gentoo
+=media-video/vlc-3.0.24
 
 # old packages
 <=dev-qt/qtwayland-5.15.3:5
