@@ -35,6 +35,7 @@ dev-python/pyside webengine quick
 >=dev-qt/qttools-6.9.2 designer
 sys-libs/glibc hash-sysv-compat
 dev-libs/imath python_single_target_python3_14
+>=media-libs/opencolorio-2.4.2 python_single_target_python3_14
 
 # GAME DEVELOPMENT
 app-misc/ddcutil user-permissions
