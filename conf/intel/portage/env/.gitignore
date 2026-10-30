@@ -18,3 +18,4 @@
 !O3.amd64.conf
 !O3.amd64.notest.conf
 !O3.x86.conf
+!argent-initramfs-modules.bashrc
