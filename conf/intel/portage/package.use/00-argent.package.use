@@ -178,6 +178,8 @@ sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi 
 >=sys-kernel/installkernel-48-r1 dracut grub
 sys-kernel/gentoo-sources -symlink
 sys-kernel/linux-firmware compress-zstd
+sys-firmware/broadcom-bt-firmware compress-zstd
+sys-firmware/alsa-firmware compress-zstd
 
 # WWW stuff & browsers
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
