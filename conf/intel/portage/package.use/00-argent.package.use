@@ -36,7 +36,7 @@ dev-python/pyside webengine quick
 sys-libs/glibc hash-sysv-compat
 dev-libs/imath python_single_target_python3_14
 >=media-libs/opencolorio-2.4.2 python_single_target_python3_14
->=llvm-core/clang-22 python_single_target_python3_14
+llvm-core/clang python_single_target_python3_14
 
 # GAME DEVELOPMENT
 app-misc/ddcutil user-permissions
