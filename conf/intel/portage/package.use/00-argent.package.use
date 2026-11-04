@@ -34,6 +34,9 @@ dev-python/pyside webengine quick
 >=dev-lang/php-8.3.21 calendar intl
 >=dev-qt/qttools-6.9.2 designer
 sys-libs/glibc hash-sysv-compat
+dev-libs/imath python_single_target_python3_14
+>=media-libs/opencolorio-2.4.2 python_single_target_python3_14
+llvm-core/clang python_single_target_python3_14
 
 # GAME DEVELOPMENT
 app-misc/ddcutil user-permissions
@@ -46,6 +49,7 @@ media-sound/lmms vst fluidsynth ogg mp3
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
 >=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+dev-libs/uriparser -qt6
 dev-python/pyside webview
 >=media-libs/babl-0.1.116 introspection
 >=media-libs/gegl-0.4.64-r1 introspection
@@ -161,6 +165,7 @@ sys-fs/dmraid intel_led led mini
 sys-fs/dosfstools compat
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip static-libs
+>=sys-apps/polychromatic-0.9.8::gentoo python_single_target_python3_14
 
 # LLVM / CLANG
 # move sys-devel/llvm llvm-core/llvm
@@ -172,6 +177,9 @@ sys-kernel/argent-sources symlink grub2
 sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi mdadm luks lvm zfs
 >=sys-kernel/installkernel-48-r1 dracut grub
 sys-kernel/gentoo-sources -symlink
+sys-kernel/linux-firmware compress-zstd
+sys-firmware/broadcom-bt-firmware compress-zstd
+sys-firmware/alsa-firmware compress-zstd
 
 # WWW stuff & browsers
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi

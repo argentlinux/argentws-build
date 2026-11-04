@@ -11,3 +11,4 @@ gnupg/
 !package.use
 !package.mask
 !package.unmask
+!verify/*.conf

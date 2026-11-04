@@ -80,7 +80,9 @@ CONFIG_PROTECT_MASK="/etc/python-exec"
 INSTALL_MASK="/etc/init.d
               /etc/runlevels
               /lib/systemd/system/ldconfig.service
-              /usr/lib/debug"
+              /usr/lib/debug
+              /etc/os-release
+              /usr/lib/os-release"
 
 GENTOO_MIRRORS="https://pkgwork.argentlinux.io/ \
     http://ftp.romnet.org/gentoo/ \

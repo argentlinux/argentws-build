@@ -2,4 +2,4 @@ kde-apps/ark
 kde-apps/dolphin
 kde-apps/konsole
 net-irc/konversation
-x11-misc/sddm
+gui-apps/sddm
