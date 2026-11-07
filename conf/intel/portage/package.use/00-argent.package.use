@@ -226,7 +226,7 @@ kde-plasma/discover -firmware flatpak webengine
 kde-plasma/discover-snap -firmware flatpak snap webengine
 kde-plasma/plasma-workspace networkmanager
 app-misc/argent-skel -gtk
-kde-plasma/plasma-meta colord discover flatpak oxygen-theme thunderbolt webengine -qt5 -wallpapers
+kde-plasma/plasma-meta colord discover flatpak thunderbolt webengine -qt5 -wallpapers
 >=kde-frameworks/kio-6.7.0-r1 handbook
 kde-apps/ksystemlog kdesu
 kde-apps/ark zip
