@@ -178,7 +178,6 @@ sys-kernel/argent-sources symlink grub2
 sys-kernel/linux-argent btrfs build dmraid dracut grub2 installer symlink iscsi mdadm luks lvm zfs
 >=sys-kernel/installkernel-48-r1 dracut grub
 sys-kernel/gentoo-sources -symlink
-sys-kernel/linux-firmware compress-zstd
 sys-firmware/broadcom-bt-firmware compress-zstd
 sys-firmware/alsa-firmware compress-zstd
 
