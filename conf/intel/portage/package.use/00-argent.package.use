@@ -38,7 +38,7 @@ sys-libs/glibc hash-sysv-compat
 dev-libs/imath python_single_target_python3_14
 >=media-libs/opencolorio-2.4.2 python_single_target_python3_14
 llvm-core/clang python_single_target_python3_14
->=dev-vcs/git-2.56.1 -webdav -pcre -nls -perl -rust python_single_target_python3_14
+>=dev-vcs/git-2.56.1 -webdav -pcre -nls -perl -rust -python_single_target_python3_12 python_single_target_python3_14
 
 # GAME DEVELOPMENT
 app-misc/ddcutil user-permissions
